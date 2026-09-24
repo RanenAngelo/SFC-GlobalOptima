@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Pytest / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database: Large uncompressed raw sqlite binary (>100MB exceeds GitHub hard push limit)
+# Note: Full database is archived in database/dineiq.db.zip (38MB) and auto-extracted
+database/dineiq.db
+database/*.db-wal
+database/*.db-shm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / Frontend Build
+node_modules/
+dist/
+*.tsbuildinfo
