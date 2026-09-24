@@ -1,0 +1,198 @@
+﻿/* ==========================================================================
+   DineIQ Design Tokens — luxury enterprise command center
+   Dark:  luxury + futuristic + immersive
+   Light: executive + clean + premium  (not an inversion of dark)
+   ========================================================================== */
+
+:root {
+  --font-display: ''Sora Variable'', ''Sora'', ''Inter Variable'', system-ui, sans-serif;
+  --font-body: ''Inter Variable'', ''Inter'', system-ui, -apple-system, sans-serif;
+  --font-mono: ''SFMono-Regular'', ui-monospace, ''Cascadia Mono'', Menlo, monospace;
+
+  --fs-display: clamp(2.4rem, 1.2rem + 3.4vw, 4.6rem);
+  --fs-h1: clamp(1.7rem, 1.2rem + 1.6vw, 2.5rem);
+  --fs-h2: clamp(1.25rem, 1.05rem + 0.8vw, 1.7rem);
+  --fs-h3: 1.05rem;
+  --fs-body: 0.925rem;
+  --fs-sm: 0.82rem;
+  --fs-xs: 0.72rem;
+  --fs-kpi: clamp(1.5rem, 1.1rem + 1.4vw, 2.3rem);
+
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 20px; --sp-6: 24px; --sp-7: 32px; --sp-8: 48px; --sp-9: 64px;
+
+  --r-sm: 6px; --r-md: 9px; --r-lg: 13px; --r-xl: 18px; --r-pill: 999px;
+
+  --chart-1: #d9a441;
+  --chart-2: #5b8cff;
+  --chart-3: #3ecf8e;
+  --chart-4: #b48efc;
+  --chart-5: #f0715c;
+  --chart-6: #4cc9f0;
+  --chart-7: #f5a524;
+  --chart-8: #f274b7;
+  --chart-compare: rgba(224, 233, 249, .50);
+  --chart-glass-bg: rgba(11, 19, 32, .44);
+
+  --priority-critical: #f0564a;
+  --priority-high:     #f5a524;
+  --priority-medium:   #5b8cff;
+  --priority-low:      #6b7690;
+
+  --dur-fast: 160ms;
+  --dur:      280ms;
+  --dur-slow: 640ms;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --sidebar-w: 264px;
+  --topbar-h:  64px;
+  --sidebar-bg: linear-gradient(160deg, rgba(15, 28, 48, .96), rgba(8, 15, 28, .94));
+  --sidebar-border: rgba(255, 255, 255, .10);
+  --sidebar-text: rgba(241, 247, 255, .86);
+  --sidebar-muted: rgba(218, 231, 248, .52);
+  --sidebar-hover: rgba(255, 255, 255, .07);
+  --sidebar-active: linear-gradient(120deg, rgba(76, 163, 255, .20), rgba(83, 209, 230, .09));
+  --sidebar-shadow: 16px 0 48px rgba(4, 14, 30, .18);
+  --logo-glass: linear-gradient(145deg, rgba(157, 220, 255, .30), rgba(77, 152, 225, .12) 48%, rgba(255,255,255,.12));
+  --logo-border: rgba(224, 246, 255, .54);
+  --logo-shadow: 0 8px 22px rgba(18, 105, 190, .20), inset 0 1px 0 rgba(255,255,255,.7);
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg-0: #080d17;
+  --bg-1: #0e1522;
+  --bg-2: #121c2c;
+  --bg-3: #1a2639;
+
+  --surface-1: rgba(255, 255, 255, 0.04);
+  --surface-2: rgba(255, 255, 255, 0.065);
+  --surface-3: rgba(255, 255, 255, 0.095);
+  --glass:      rgba(13, 21, 35, 0.84);
+  --glass-heavy: rgba(9, 15, 26, 0.96);
+
+  --border:        rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.20);
+  --border-accent: rgba(217, 164, 65, 0.35);
+
+  --text-1: #f2f4f9;
+  --text-2: #9ca8c0;
+  --text-3: #636f8a;
+
+  --accent:          #d9a441;
+  --accent-soft:     rgba(217, 164, 65, 0.12);
+  --accent-contrast: #040507;
+  --accent-2:        #5b8cff;
+  --accent-2-soft:   rgba(91, 140, 255, 0.14);
+
+  --success:      #3ecf8e;
+  --success-soft: rgba(62, 207, 142, 0.12);
+  --warn:         #f5a524;
+  --warn-soft:    rgba(245, 165, 36, 0.12);
+  --danger:       #f0564a;
+  --danger-soft:  rgba(240, 86, 74, 0.12);
+  --info:         #6aa9ff;
+  --info-soft:    rgba(106, 169, 255, 0.12);
+
+  --shadow-1: 0 2px 6px rgba(0, 0, 0, .24), 0 12px 30px rgba(0, 0, 0, .12), inset 0 1px 0 rgba(255,255,255,.035);
+  --shadow-2: 0 14px 38px rgba(0, 0, 0, 0.34);
+  --shadow-3: 0 24px 64px rgba(0, 0, 0, 0.48);
+  --glow-accent: 0 0 0 1px rgba(217, 164, 65, 0.28), 0 0 20px rgba(217, 164, 65, 0.1);
+
+  --skeleton-a: rgba(255, 255, 255, 0.05);
+  --skeleton-b: rgba(255, 255, 255, 0.09);
+  --chart-grid: rgba(255, 255, 255, 0.07);
+  --chart-tooltip-bg: rgba(10, 17, 29, 0.88);
+
+  --grid-line: rgba(255, 255, 255, 0.065);
+  --scrim:     rgba(2, 3, 5, 0.75);
+
+  --panel-header-bg:     rgba(255, 255, 255, 0.022);
+  --panel-header-border: rgba(255, 255, 255, 0.07);
+  --sidebar-bg: linear-gradient(160deg, rgba(20, 31, 49, .97), rgba(10, 17, 29, .97));
+  --sidebar-border: rgba(190, 217, 255, .11);
+  --sidebar-text: rgba(240, 247, 255, .88);
+  --sidebar-muted: rgba(207, 224, 246, .53);
+  --sidebar-hover: rgba(180, 214, 255, .07);
+  --sidebar-active: linear-gradient(120deg, rgba(64, 153, 255, .21), rgba(66, 203, 220, .10));
+  --sidebar-shadow: 18px 0 48px rgba(0, 5, 15, .24);
+  --logo-glass: linear-gradient(145deg, rgba(151, 215, 255, .28), rgba(74, 146, 224, .12) 48%, rgba(255,255,255,.12));
+  --logo-border: rgba(224, 246, 255, .55);
+  --logo-shadow: 0 8px 22px rgba(18, 105, 190, .24), inset 0 1px 0 rgba(255,255,255,.72);
+}
+
+html[data-theme='light'] {
+  color-scheme: light;
+
+  --bg-0: #edf4fb;
+  --bg-1: #ffffff;
+  --bg-2: #f7fbff;
+  --bg-3: #e5eef8;
+
+  --surface-1: rgba(16, 22, 38, 0.025);
+  --surface-2: rgba(16, 22, 38, 0.045);
+  --surface-3: rgba(16, 22, 38, 0.07);
+  --glass:      rgba(246, 251, 255, 0.78);
+  --glass-heavy: rgba(250, 253, 255, 0.94);
+
+  --border:        rgba(16, 24, 48, 0.09);
+  --border-strong: rgba(16, 24, 48, 0.16);
+  --border-accent: rgba(168, 118, 29, 0.3);
+
+  --text-1: #10162a;
+  --text-2: #4a5470;
+  --text-3: #8590ab;
+
+  --accent:          #a8761d;
+  --accent-soft:     rgba(168, 118, 29, 0.12);
+  --accent-contrast: #ffffff;
+  --accent-2:        #3564e0;
+  --accent-2-soft:   rgba(53, 100, 224, 0.12);
+
+  --success:      #12855a;
+  --success-soft: rgba(18, 133, 90, 0.12);
+  --warn:         #b9740a;
+  --warn-soft:    rgba(185, 116, 10, 0.12);
+  --danger:       #cc3b2e;
+  --danger-soft:  rgba(204, 59, 46, 0.1);
+  --info:         #2c63d8;
+  --info-soft:    rgba(44, 99, 216, 0.1);
+
+  --shadow-1: 0 2px 6px rgba(44, 82, 126, .06), 0 10px 26px rgba(42, 88, 139, .055), inset 0 1px 0 rgba(255,255,255,.92);
+  --shadow-2: 0 14px 36px rgba(37, 82, 132, .11);
+  --shadow-3: 0 24px 60px rgba(37, 82, 132, .16);
+  --glow-accent: 0 0 0 1px rgba(168, 118, 29, 0.3);
+
+  --skeleton-a: rgba(16, 22, 48, 0.05);
+  --skeleton-b: rgba(16, 22, 48, 0.1);
+  --chart-grid: rgba(16, 24, 48, 0.08);
+  --chart-tooltip-bg: rgba(255, 255, 255, 0.97);
+
+  --grid-line: rgba(16, 24, 48, 0.06);
+  --scrim:     rgba(20, 26, 44, 0.35);
+
+  --panel-header-bg:     rgba(16, 22, 48, 0.02);
+  --panel-header-border: rgba(16, 22, 48, 0.07);
+
+  --chart-1: #a8761d;
+  --chart-2: #3564e0;
+  --chart-3: #0e9e6a;
+  --chart-4: #7c4fd8;
+  --chart-5: #d8543f;
+  --chart-6: #0e8fb8;
+  --chart-7: #cf7809;
+  --chart-8: #cf4f97;
+  --chart-compare: rgba(84, 104, 135, .55);
+  --chart-glass-bg: rgba(255, 255, 255, .40);
+  --sidebar-bg: linear-gradient(160deg, rgba(243, 250, 255, .88), rgba(229, 241, 253, .82));
+  --sidebar-border: rgba(111, 160, 208, .22);
+  --sidebar-text: #263c57;
+  --sidebar-muted: #7890a9;
+  --sidebar-hover: rgba(70, 137, 206, .075);
+  --sidebar-active: linear-gradient(120deg, rgba(60, 138, 218, .15), rgba(55, 189, 210, .09));
+  --sidebar-shadow: 12px 0 36px rgba(43, 92, 144, .10);
+  --logo-glass: linear-gradient(145deg, rgba(255,255,255,.78), rgba(134,204,250,.30) 48%, rgba(94,157,231,.20));
+  --logo-border: rgba(255, 255, 255, .88);
+  --logo-shadow: 0 8px 20px rgba(44, 123, 195, .19), inset 0 1px 0 rgba(255,255,255,.96);
+}
