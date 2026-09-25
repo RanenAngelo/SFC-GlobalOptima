@@ -1,0 +1,227 @@
+[
+  {
+    "restaurant_id":"REST01",
+    "restaurant_name":"DineIQ New York Downtown",
+    "city":"New York",
+    "state":"NY",
+    "zone":"Downtown Flagship",
+    "seating_capacity":200,
+    "opened_date":"2018-01-01"
+  },
+  {
+    "restaurant_id":"REST02",
+    "restaurant_name":"DineIQ Chicago Financial",
+    "city":"Chicago",
+    "state":"IL",
+    "zone":"Financial District",
+    "seating_capacity":200,
+    "opened_date":"2020-04-01"
+  },
+  {
+    "restaurant_id":"REST03",
+    "restaurant_name":"DineIQ San Francisco Uptown",
+    "city":"San Francisco",
+    "state":"CA",
+    "zone":"Uptown Promenade",
+    "seating_capacity":80,
+    "opened_date":"2019-12-01"
+  },
+  {
+    "restaurant_id":"REST04",
+    "restaurant_name":"DineIQ Austin Waterfront",
+    "city":"Austin",
+    "state":"TX",
+    "zone":"Waterfront Pier",
+    "seating_capacity":60,
+    "opened_date":"2023-12-01"
+  },
+  {
+    "restaurant_id":"REST05",
+    "restaurant_name":"DineIQ Seattle Suburban",
+    "city":"Seattle",
+    "state":"WA",
+    "zone":"Suburban Galleria",
+    "seating_capacity":150,
+    "opened_date":"2018-10-01"
+  },
+  {
+    "restaurant_id":"REST06",
+    "restaurant_name":"DineIQ Boston Airport",
+    "city":"Boston",
+    "state":"MA",
+    "zone":"Airport Terminal",
+    "seating_capacity":120,
+    "opened_date":"2018-01-01"
+  },
+  {
+    "restaurant_id":"REST07",
+    "restaurant_name":"DineIQ Miami Tech",
+    "city":"Miami",
+    "state":"FL",
+    "zone":"Tech Corridor",
+    "seating_capacity":60,
+    "opened_date":"2019-04-01"
+  },
+  {
+    "restaurant_id":"REST08",
+    "restaurant_name":"DineIQ Denver Historic",
+    "city":"Denver",
+    "state":"CO",
+    "zone":"Historic Quarter",
+    "seating_capacity":150,
+    "opened_date":"2022-01-01"
+  },
+  {
+    "restaurant_id":"REST09",
+    "restaurant_name":"DineIQ Los Angeles Fashion",
+    "city":"Los Angeles",
+    "state":"CA",
+    "zone":"Fashion Avenue",
+    "seating_capacity":150,
+    "opened_date":"2019-12-01"
+  },
+  {
+    "restaurant_id":"REST10",
+    "restaurant_name":"DineIQ Atlanta Downtown",
+    "city":"Atlanta",
+    "state":"GA",
+    "zone":"Downtown Flagship",
+    "seating_capacity":200,
+    "opened_date":"2023-09-01"
+  },
+  {
+    "restaurant_id":"REST11",
+    "restaurant_name":"DineIQ New York Financial",
+    "city":"New York",
+    "state":"NY",
+    "zone":"Financial District",
+    "seating_capacity":120,
+    "opened_date":"2019-08-01"
+  },
+  {
+    "restaurant_id":"REST12",
+    "restaurant_name":"DineIQ Chicago Uptown",
+    "city":"Chicago",
+    "state":"IL",
+    "zone":"Uptown Promenade",
+    "seating_capacity":150,
+    "opened_date":"2020-01-01"
+  },
+  {
+    "restaurant_id":"REST13",
+    "restaurant_name":"DineIQ San Francisco Waterfront",
+    "city":"San Francisco",
+    "state":"CA",
+    "zone":"Waterfront Pier",
+    "seating_capacity":250,
+    "opened_date":"2024-03-01"
+  },
+  {
+    "restaurant_id":"REST14",
+    "restaurant_name":"DineIQ Austin Suburban",
+    "city":"Austin",
+    "state":"TX",
+    "zone":"Suburban Galleria",
+    "seating_capacity":200,
+    "opened_date":"2021-06-01"
+  },
+  {
+    "restaurant_id":"REST15",
+    "restaurant_name":"DineIQ Seattle Airport",
+    "city":"Seattle",
+    "state":"WA",
+    "zone":"Airport Terminal",
+    "seating_capacity":100,
+    "opened_date":"2019-04-01"
+  },
+  {
+    "restaurant_id":"REST16",
+    "restaurant_name":"DineIQ Boston Tech",
+    "city":"Boston",
+    "state":"MA",
+    "zone":"Tech Corridor",
+    "seating_capacity":250,
+    "opened_date":"2020-02-01"
+  },
+  {
+    "restaurant_id":"REST17",
+    "restaurant_name":"DineIQ Miami Historic",
+    "city":"Miami",
+    "state":"FL",
+    "zone":"Historic Quarter",
+    "seating_capacity":60,
+    "opened_date":"2021-02-01"
+  },
+  {
+    "restaurant_id":"REST18",
+    "restaurant_name":"DineIQ Denver Fashion",
+    "city":"Denver",
+    "state":"CO",
+    "zone":"Fashion Avenue",
+    "seating_capacity":100,
+    "opened_date":"2024-06-01"
+  },
+  {
+    "restaurant_id":"REST19",
+    "restaurant_name":"DineIQ Los Angeles Downtown",
+    "city":"Los Angeles",
+    "state":"CA",
+    "zone":"Downtown Flagship",
+    "seating_capacity":150,
+    "opened_date":"2020-01-01"
+  },
+  {
+    "restaurant_id":"REST20",
+    "restaurant_name":"DineIQ Atlanta Financial",
+    "city":"Atlanta",
+    "state":"GA",
+    "zone":"Financial District",
+    "seating_capacity":200,
+    "opened_date":"2021-09-01"
+  },
+  {
+    "restaurant_id":"REST21",
+    "restaurant_name":"DineIQ New York Uptown",
+    "city":"New York",
+    "state":"NY",
+    "zone":"Uptown Promenade",
+    "seating_capacity":60,
+    "opened_date":"2021-02-01"
+  },
+  {
+    "restaurant_id":"REST22",
+    "restaurant_name":"DineIQ Chicago Waterfront",
+    "city":"Chicago",
+    "state":"IL",
+    "zone":"Waterfront Pier",
+    "seating_capacity":150,
+    "opened_date":"2020-11-01"
+  },
+  {
+    "restaurant_id":"REST23",
+    "restaurant_name":"DineIQ San Francisco Suburban",
+    "city":"San Francisco",
+    "state":"CA",
+    "zone":"Suburban Galleria",
+    "seating_capacity":150,
+    "opened_date":"2024-06-01"
+  },
+  {
+    "restaurant_id":"REST24",
+    "restaurant_name":"DineIQ Austin Airport",
+    "city":"Austin",
+    "state":"TX",
+    "zone":"Airport Terminal",
+    "seating_capacity":150,
+    "opened_date":"2019-12-01"
+  },
+  {
+    "restaurant_id":"REST25",
+    "restaurant_name":"DineIQ Seattle Tech",
+    "city":"Seattle",
+    "state":"WA",
+    "zone":"Tech Corridor",
+    "seating_capacity":60,
+    "opened_date":"2018-11-01"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "category_id":"CAT01",
+    "category_name":"Appetizers",
+    "description":"Starters, finger foods, and sharing plates"
+  },
+  {
+    "category_id":"CAT02",
+    "category_name":"Artisan Pizzas",
+    "description":"Wood-fired and hand-tossed artisan pizzas"
+  },
+  {
+    "category_id":"CAT03",
+    "category_name":"Handcrafted Pastas",
+    "description":"Fresh pasta with regional authentic sauces"
+  },
+  {
+    "category_id":"CAT04",
+    "category_name":"Gourmet Burgers",
+    "description":"Angus beef, wagyu, and brioche burgers"
+  },
+  {
+    "category_id":"CAT05",
+    "category_name":"Prime Steaks & Grills",
+    "description":"Aged prime cuts, steaks, and flame-grilled meats"
+  },
+  {
+    "category_id":"CAT06",
+    "category_name":"Coastal Seafood",
+    "description":"Wild-caught seafood, lobster, prawns, and fish"
+  },
+  {
+    "category_id":"CAT07",
+    "category_name":"Organic Salads",
+    "description":"Farm-fresh greens, superfood bowls, and salads"
+  },
+  {
+    "category_id":"CAT08",
+    "category_name":"Heritage Soups",
+    "description":"Slow-simmered artisanal broths and cream soups"
+  },
+  {
+    "category_id":"CAT09",
+    "category_name":"Plant-Based & Vegan",
+    "description":"Innovative vegan dishes and meat alternatives"
+  },
+  {
+    "category_id":"CAT10",
+    "category_name":"Decadent Desserts",
+    "description":"Pastries, mousses, cheesecakes, and gelato"
+  },
+  {
+    "category_id":"CAT11",
+    "category_name":"Craft Beverages",
+    "description":"Mocktails, pressed juices, specialty teas, and sodas"
+  },
+  {
+    "category_id":"CAT12",
+    "category_name":"Brunch & Breakfast",
+    "description":"Eggs Benedict, brioche toast, and morning plates"
+  }
+]

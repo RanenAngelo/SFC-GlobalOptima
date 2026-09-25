@@ -1,0 +1,778 @@
+[
+  {
+    "price_change_id":"PRC0001",
+    "item_id":"M002",
+    "old_price":80.95,
+    "new_price":85.0,
+    "effective_date":"2025-03-04",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0002",
+    "item_id":"M003",
+    "old_price":41.74,
+    "new_price":48.0,
+    "effective_date":"2025-05-14",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0003",
+    "item_id":"M005",
+    "old_price":6.7,
+    "new_price":7.5,
+    "effective_date":"2025-04-09",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0004",
+    "item_id":"M007",
+    "old_price":28.57,
+    "new_price":32.0,
+    "effective_date":"2025-08-24",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0005",
+    "item_id":"M008",
+    "old_price":42.22,
+    "new_price":38.0,
+    "effective_date":"2025-08-11",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0006",
+    "item_id":"M009",
+    "old_price":16.67,
+    "new_price":15.0,
+    "effective_date":"2025-08-10",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0007",
+    "item_id":"M010",
+    "old_price":10.65,
+    "new_price":11.5,
+    "effective_date":"2025-05-13",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0008",
+    "item_id":"M011",
+    "old_price":15.68,
+    "new_price":14.9,
+    "effective_date":"2025-06-22",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0009",
+    "item_id":"M014",
+    "old_price":18.24,
+    "new_price":19.15,
+    "effective_date":"2025-06-18",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0010",
+    "item_id":"M015",
+    "old_price":19.06,
+    "new_price":18.11,
+    "effective_date":"2025-06-26",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0011",
+    "item_id":"M016",
+    "old_price":23.58,
+    "new_price":24.76,
+    "effective_date":"2025-06-15",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0012",
+    "item_id":"M018",
+    "old_price":21.87,
+    "new_price":25.15,
+    "effective_date":"2025-04-22",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0013",
+    "item_id":"M019",
+    "old_price":16.22,
+    "new_price":18.65,
+    "effective_date":"2025-08-20",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0014",
+    "item_id":"M020",
+    "old_price":22.75,
+    "new_price":21.61,
+    "effective_date":"2025-08-10",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0015",
+    "item_id":"M022",
+    "old_price":22.21,
+    "new_price":19.99,
+    "effective_date":"2025-04-16",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0016",
+    "item_id":"M024",
+    "old_price":15.66,
+    "new_price":16.91,
+    "effective_date":"2025-08-19",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0017",
+    "item_id":"M026",
+    "old_price":22.15,
+    "new_price":23.92,
+    "effective_date":"2025-04-05",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0018",
+    "item_id":"M031",
+    "old_price":19.84,
+    "new_price":22.82,
+    "effective_date":"2025-07-15",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0019",
+    "item_id":"M032",
+    "old_price":20.74,
+    "new_price":18.67,
+    "effective_date":"2025-06-05",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0020",
+    "item_id":"M035",
+    "old_price":22.93,
+    "new_price":24.76,
+    "effective_date":"2025-07-27",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0021",
+    "item_id":"M036",
+    "old_price":18.76,
+    "new_price":21.01,
+    "effective_date":"2025-06-06",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0022",
+    "item_id":"M037",
+    "old_price":26.45,
+    "new_price":25.13,
+    "effective_date":"2025-08-09",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0023",
+    "item_id":"M038",
+    "old_price":19.98,
+    "new_price":18.98,
+    "effective_date":"2025-05-15",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0024",
+    "item_id":"M040",
+    "old_price":22.5,
+    "new_price":23.63,
+    "effective_date":"2025-05-18",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0025",
+    "item_id":"M041",
+    "old_price":25.04,
+    "new_price":23.79,
+    "effective_date":"2025-06-23",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0026",
+    "item_id":"M043",
+    "old_price":14.99,
+    "new_price":16.19,
+    "effective_date":"2025-05-18",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0027",
+    "item_id":"M044",
+    "old_price":26.09,
+    "new_price":24.79,
+    "effective_date":"2025-06-13",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0028",
+    "item_id":"M046",
+    "old_price":22.12,
+    "new_price":24.78,
+    "effective_date":"2025-06-16",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0029",
+    "item_id":"M048",
+    "old_price":15.45,
+    "new_price":16.69,
+    "effective_date":"2025-06-18",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0030",
+    "item_id":"M051",
+    "old_price":17.76,
+    "new_price":18.65,
+    "effective_date":"2025-06-16",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0031",
+    "item_id":"M052",
+    "old_price":17.59,
+    "new_price":20.23,
+    "effective_date":"2025-08-26",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0032",
+    "item_id":"M057",
+    "old_price":29.29,
+    "new_price":31.63,
+    "effective_date":"2025-07-19",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0033",
+    "item_id":"M058",
+    "old_price":35.31,
+    "new_price":38.14,
+    "effective_date":"2025-04-28",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0034",
+    "item_id":"M059",
+    "old_price":33.24,
+    "new_price":34.9,
+    "effective_date":"2025-06-11",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0035",
+    "item_id":"M060",
+    "old_price":28.7,
+    "new_price":30.13,
+    "effective_date":"2025-06-09",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0036",
+    "item_id":"M061",
+    "old_price":38.74,
+    "new_price":34.87,
+    "effective_date":"2025-06-01",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0037",
+    "item_id":"M062",
+    "old_price":51.23,
+    "new_price":53.79,
+    "effective_date":"2025-04-21",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0038",
+    "item_id":"M067",
+    "old_price":58.02,
+    "new_price":52.22,
+    "effective_date":"2025-07-05",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0039",
+    "item_id":"M068",
+    "old_price":26.88,
+    "new_price":30.91,
+    "effective_date":"2025-03-19",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0040",
+    "item_id":"M069",
+    "old_price":38.77,
+    "new_price":40.71,
+    "effective_date":"2025-05-06",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0041",
+    "item_id":"M070",
+    "old_price":43.37,
+    "new_price":49.87,
+    "effective_date":"2025-08-04",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0042",
+    "item_id":"M072",
+    "old_price":44.53,
+    "new_price":40.08,
+    "effective_date":"2025-05-19",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0043",
+    "item_id":"M073",
+    "old_price":46.83,
+    "new_price":53.85,
+    "effective_date":"2025-04-03",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0044",
+    "item_id":"M075",
+    "old_price":45.18,
+    "new_price":40.66,
+    "effective_date":"2025-08-25",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0045",
+    "item_id":"M077",
+    "old_price":45.88,
+    "new_price":41.29,
+    "effective_date":"2025-07-26",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0046",
+    "item_id":"M078",
+    "old_price":41.21,
+    "new_price":44.51,
+    "effective_date":"2025-08-12",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0047",
+    "item_id":"M079",
+    "old_price":17.13,
+    "new_price":17.99,
+    "effective_date":"2025-03-28",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0048",
+    "item_id":"M081",
+    "old_price":16.13,
+    "new_price":16.94,
+    "effective_date":"2025-08-27",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0049",
+    "item_id":"M083",
+    "old_price":12.01,
+    "new_price":13.81,
+    "effective_date":"2025-07-21",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0050",
+    "item_id":"M084",
+    "old_price":12.19,
+    "new_price":13.65,
+    "effective_date":"2025-06-15",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0051",
+    "item_id":"M086",
+    "old_price":13.51,
+    "new_price":14.19,
+    "effective_date":"2025-04-27",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0052",
+    "item_id":"M087",
+    "old_price":16.39,
+    "new_price":17.7,
+    "effective_date":"2025-04-25",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0053",
+    "item_id":"M088",
+    "old_price":12.95,
+    "new_price":14.89,
+    "effective_date":"2025-06-11",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0054",
+    "item_id":"M089",
+    "old_price":11.5,
+    "new_price":12.08,
+    "effective_date":"2025-04-16",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0055",
+    "item_id":"M090",
+    "old_price":16.93,
+    "new_price":17.78,
+    "effective_date":"2025-05-09",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0056",
+    "item_id":"M092",
+    "old_price":12.67,
+    "new_price":11.4,
+    "effective_date":"2025-07-07",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0057",
+    "item_id":"M093",
+    "old_price":13.44,
+    "new_price":14.52,
+    "effective_date":"2025-06-18",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0058",
+    "item_id":"M095",
+    "old_price":10.7,
+    "new_price":11.56,
+    "effective_date":"2025-06-26",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0059",
+    "item_id":"M096",
+    "old_price":15.97,
+    "new_price":15.17,
+    "effective_date":"2025-06-23",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0060",
+    "item_id":"M097",
+    "old_price":11.29,
+    "new_price":12.65,
+    "effective_date":"2025-05-16",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0061",
+    "item_id":"M098",
+    "old_price":15.95,
+    "new_price":17.23,
+    "effective_date":"2025-08-18",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0062",
+    "item_id":"M099",
+    "old_price":14.04,
+    "new_price":15.16,
+    "effective_date":"2025-05-10",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0063",
+    "item_id":"M100",
+    "old_price":12.11,
+    "new_price":13.93,
+    "effective_date":"2025-04-11",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0064",
+    "item_id":"M104",
+    "old_price":13.65,
+    "new_price":15.7,
+    "effective_date":"2025-06-09",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0065",
+    "item_id":"M106",
+    "old_price":10.96,
+    "new_price":11.51,
+    "effective_date":"2025-03-27",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0066",
+    "item_id":"M107",
+    "old_price":17.13,
+    "new_price":17.99,
+    "effective_date":"2025-04-10",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0067",
+    "item_id":"M109",
+    "old_price":14.29,
+    "new_price":12.86,
+    "effective_date":"2025-03-18",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0068",
+    "item_id":"M111",
+    "old_price":12.58,
+    "new_price":13.59,
+    "effective_date":"2025-03-28",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0069",
+    "item_id":"M112",
+    "old_price":15.59,
+    "new_price":16.84,
+    "effective_date":"2025-06-15",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0070",
+    "item_id":"M113",
+    "old_price":16.98,
+    "new_price":15.28,
+    "effective_date":"2025-05-28",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0071",
+    "item_id":"M114",
+    "old_price":17.31,
+    "new_price":15.58,
+    "effective_date":"2025-06-16",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0072",
+    "item_id":"M115",
+    "old_price":14.54,
+    "new_price":16.72,
+    "effective_date":"2025-03-05",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0073",
+    "item_id":"M118",
+    "old_price":10.15,
+    "new_price":9.64,
+    "effective_date":"2025-03-18",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0074",
+    "item_id":"M119",
+    "old_price":9.49,
+    "new_price":10.63,
+    "effective_date":"2025-04-25",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0075",
+    "item_id":"M120",
+    "old_price":12.32,
+    "new_price":13.31,
+    "effective_date":"2025-05-28",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0076",
+    "item_id":"M122",
+    "old_price":10.65,
+    "new_price":11.93,
+    "effective_date":"2025-03-20",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0077",
+    "item_id":"M124",
+    "old_price":12.15,
+    "new_price":11.54,
+    "effective_date":"2025-05-22",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0078",
+    "item_id":"M125",
+    "old_price":9.49,
+    "new_price":9.02,
+    "effective_date":"2025-07-03",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0079",
+    "item_id":"M126",
+    "old_price":11.87,
+    "new_price":12.82,
+    "effective_date":"2025-08-20",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0080",
+    "item_id":"M127",
+    "old_price":14.16,
+    "new_price":13.45,
+    "effective_date":"2025-05-23",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0081",
+    "item_id":"M129",
+    "old_price":8.22,
+    "new_price":9.45,
+    "effective_date":"2025-04-09",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0082",
+    "item_id":"M132",
+    "old_price":5.44,
+    "new_price":6.09,
+    "effective_date":"2025-04-21",
+    "reason":"Seasonal Adjustment"
+  },
+  {
+    "price_change_id":"PRC0083",
+    "item_id":"M135",
+    "old_price":9.58,
+    "new_price":9.1,
+    "effective_date":"2025-05-20",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0084",
+    "item_id":"M137",
+    "old_price":7.98,
+    "new_price":8.62,
+    "effective_date":"2025-08-10",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0085",
+    "item_id":"M139",
+    "old_price":5.67,
+    "new_price":6.12,
+    "effective_date":"2025-06-03",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0086",
+    "item_id":"M140",
+    "old_price":8.3,
+    "new_price":8.96,
+    "effective_date":"2025-08-11",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0087",
+    "item_id":"M141",
+    "old_price":9.71,
+    "new_price":8.74,
+    "effective_date":"2025-04-22",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0088",
+    "item_id":"M142",
+    "old_price":6.22,
+    "new_price":5.6,
+    "effective_date":"2025-08-27",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0089",
+    "item_id":"M143",
+    "old_price":7.19,
+    "new_price":6.83,
+    "effective_date":"2025-06-17",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0090",
+    "item_id":"M145",
+    "old_price":17.96,
+    "new_price":20.11,
+    "effective_date":"2025-06-21",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0091",
+    "item_id":"M147",
+    "old_price":19.19,
+    "new_price":20.72,
+    "effective_date":"2025-05-11",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0092",
+    "item_id":"M149",
+    "old_price":14.43,
+    "new_price":16.6,
+    "effective_date":"2025-06-10",
+    "reason":"Market Elasticity Test"
+  },
+  {
+    "price_change_id":"PRC0093",
+    "item_id":"M151",
+    "old_price":11.33,
+    "new_price":12.24,
+    "effective_date":"2025-03-11",
+    "reason":"Annual Price Optimization"
+  },
+  {
+    "price_change_id":"PRC0094",
+    "item_id":"M152",
+    "old_price":14.15,
+    "new_price":15.28,
+    "effective_date":"2025-07-27",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0095",
+    "item_id":"M154",
+    "old_price":17.05,
+    "new_price":18.41,
+    "effective_date":"2025-03-07",
+    "reason":"Supplier Cost Change"
+  },
+  {
+    "price_change_id":"PRC0096",
+    "item_id":"M155",
+    "old_price":20.19,
+    "new_price":21.81,
+    "effective_date":"2025-08-15",
+    "reason":"Ingredient Inflation"
+  },
+  {
+    "price_change_id":"PRC0097",
+    "item_id":"M156",
+    "old_price":19.1,
+    "new_price":21.39,
+    "effective_date":"2025-04-10",
+    "reason":"Market Elasticity Test"
+  }
+]
