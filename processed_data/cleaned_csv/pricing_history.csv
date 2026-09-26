@@ -1,0 +1,98 @@
+price_change_id,item_id,old_price,new_price,effective_date,reason
+PRC0001,M002,80.95,85.0,2025-03-04,Supplier Cost Change
+PRC0002,M003,41.74,48.0,2025-05-14,Supplier Cost Change
+PRC0003,M005,6.7,7.5,2025-04-09,Ingredient Inflation
+PRC0004,M007,28.57,32.0,2025-08-24,Seasonal Adjustment
+PRC0005,M008,42.22,38.0,2025-08-11,Supplier Cost Change
+PRC0006,M009,16.67,15.0,2025-08-10,Supplier Cost Change
+PRC0007,M010,10.65,11.5,2025-05-13,Annual Price Optimization
+PRC0008,M011,15.68,14.9,2025-06-22,Market Elasticity Test
+PRC0009,M014,18.24,19.15,2025-06-18,Ingredient Inflation
+PRC0010,M015,19.06,18.11,2025-06-26,Supplier Cost Change
+PRC0011,M016,23.58,24.76,2025-06-15,Market Elasticity Test
+PRC0012,M018,21.87,25.15,2025-04-22,Ingredient Inflation
+PRC0013,M019,16.22,18.65,2025-08-20,Annual Price Optimization
+PRC0014,M020,22.75,21.61,2025-08-10,Seasonal Adjustment
+PRC0015,M022,22.21,19.99,2025-04-16,Supplier Cost Change
+PRC0016,M024,15.66,16.91,2025-08-19,Seasonal Adjustment
+PRC0017,M026,22.15,23.92,2025-04-05,Ingredient Inflation
+PRC0018,M031,19.84,22.82,2025-07-15,Ingredient Inflation
+PRC0019,M032,20.74,18.67,2025-06-05,Market Elasticity Test
+PRC0020,M035,22.93,24.76,2025-07-27,Supplier Cost Change
+PRC0021,M036,18.76,21.01,2025-06-06,Market Elasticity Test
+PRC0022,M037,26.45,25.13,2025-08-09,Supplier Cost Change
+PRC0023,M038,19.98,18.98,2025-05-15,Ingredient Inflation
+PRC0024,M040,22.5,23.63,2025-05-18,Ingredient Inflation
+PRC0025,M041,25.04,23.79,2025-06-23,Seasonal Adjustment
+PRC0026,M043,14.99,16.19,2025-05-18,Market Elasticity Test
+PRC0027,M044,26.09,24.79,2025-06-13,Supplier Cost Change
+PRC0028,M046,22.12,24.78,2025-06-16,Ingredient Inflation
+PRC0029,M048,15.45,16.69,2025-06-18,Supplier Cost Change
+PRC0030,M051,17.76,18.65,2025-06-16,Ingredient Inflation
+PRC0031,M052,17.59,20.23,2025-08-26,Market Elasticity Test
+PRC0032,M057,29.29,31.63,2025-07-19,Ingredient Inflation
+PRC0033,M058,35.31,38.14,2025-04-28,Market Elasticity Test
+PRC0034,M059,33.24,34.9,2025-06-11,Seasonal Adjustment
+PRC0035,M060,28.7,30.13,2025-06-09,Market Elasticity Test
+PRC0036,M061,38.74,34.87,2025-06-01,Supplier Cost Change
+PRC0037,M062,51.23,53.79,2025-04-21,Ingredient Inflation
+PRC0038,M067,58.02,52.22,2025-07-05,Seasonal Adjustment
+PRC0039,M068,26.88,30.91,2025-03-19,Seasonal Adjustment
+PRC0040,M069,38.77,40.71,2025-05-06,Supplier Cost Change
+PRC0041,M070,43.37,49.87,2025-08-04,Seasonal Adjustment
+PRC0042,M072,44.53,40.08,2025-05-19,Market Elasticity Test
+PRC0043,M073,46.83,53.85,2025-04-03,Supplier Cost Change
+PRC0044,M075,45.18,40.66,2025-08-25,Annual Price Optimization
+PRC0045,M077,45.88,41.29,2025-07-26,Ingredient Inflation
+PRC0046,M078,41.21,44.51,2025-08-12,Ingredient Inflation
+PRC0047,M079,17.13,17.99,2025-03-28,Market Elasticity Test
+PRC0048,M081,16.13,16.94,2025-08-27,Market Elasticity Test
+PRC0049,M083,12.01,13.81,2025-07-21,Annual Price Optimization
+PRC0050,M084,12.19,13.65,2025-06-15,Market Elasticity Test
+PRC0051,M086,13.51,14.19,2025-04-27,Ingredient Inflation
+PRC0052,M087,16.39,17.7,2025-04-25,Market Elasticity Test
+PRC0053,M088,12.95,14.89,2025-06-11,Ingredient Inflation
+PRC0054,M089,11.5,12.08,2025-04-16,Seasonal Adjustment
+PRC0055,M090,16.93,17.78,2025-05-09,Supplier Cost Change
+PRC0056,M092,12.67,11.4,2025-07-07,Ingredient Inflation
+PRC0057,M093,13.44,14.52,2025-06-18,Seasonal Adjustment
+PRC0058,M095,10.7,11.56,2025-06-26,Ingredient Inflation
+PRC0059,M096,15.97,15.17,2025-06-23,Seasonal Adjustment
+PRC0060,M097,11.29,12.65,2025-05-16,Supplier Cost Change
+PRC0061,M098,15.95,17.23,2025-08-18,Annual Price Optimization
+PRC0062,M099,14.04,15.16,2025-05-10,Annual Price Optimization
+PRC0063,M100,12.11,13.93,2025-04-11,Ingredient Inflation
+PRC0064,M104,13.65,15.7,2025-06-09,Supplier Cost Change
+PRC0065,M106,10.96,11.51,2025-03-27,Seasonal Adjustment
+PRC0066,M107,17.13,17.99,2025-04-10,Ingredient Inflation
+PRC0067,M109,14.29,12.86,2025-03-18,Annual Price Optimization
+PRC0068,M111,12.58,13.59,2025-03-28,Ingredient Inflation
+PRC0069,M112,15.59,16.84,2025-06-15,Annual Price Optimization
+PRC0070,M113,16.98,15.28,2025-05-28,Market Elasticity Test
+PRC0071,M114,17.31,15.58,2025-06-16,Ingredient Inflation
+PRC0072,M115,14.54,16.72,2025-03-05,Seasonal Adjustment
+PRC0073,M118,10.15,9.64,2025-03-18,Market Elasticity Test
+PRC0074,M119,9.49,10.63,2025-04-25,Supplier Cost Change
+PRC0075,M120,12.32,13.31,2025-05-28,Supplier Cost Change
+PRC0076,M122,10.65,11.93,2025-03-20,Ingredient Inflation
+PRC0077,M124,12.15,11.54,2025-05-22,Ingredient Inflation
+PRC0078,M125,9.49,9.02,2025-07-03,Seasonal Adjustment
+PRC0079,M126,11.87,12.82,2025-08-20,Market Elasticity Test
+PRC0080,M127,14.16,13.45,2025-05-23,Annual Price Optimization
+PRC0081,M129,8.22,9.45,2025-04-09,Supplier Cost Change
+PRC0082,M132,5.44,6.09,2025-04-21,Seasonal Adjustment
+PRC0083,M135,9.58,9.1,2025-05-20,Supplier Cost Change
+PRC0084,M137,7.98,8.62,2025-08-10,Market Elasticity Test
+PRC0085,M139,5.67,6.12,2025-06-03,Supplier Cost Change
+PRC0086,M140,8.3,8.96,2025-08-11,Supplier Cost Change
+PRC0087,M141,9.71,8.74,2025-04-22,Supplier Cost Change
+PRC0088,M142,6.22,5.6,2025-08-27,Annual Price Optimization
+PRC0089,M143,7.19,6.83,2025-06-17,Market Elasticity Test
+PRC0090,M145,17.96,20.11,2025-06-21,Market Elasticity Test
+PRC0091,M147,19.19,20.72,2025-05-11,Ingredient Inflation
+PRC0092,M149,14.43,16.6,2025-06-10,Market Elasticity Test
+PRC0093,M151,11.33,12.24,2025-03-11,Annual Price Optimization
+PRC0094,M152,14.15,15.28,2025-07-27,Ingredient Inflation
+PRC0095,M154,17.05,18.41,2025-03-07,Supplier Cost Change
+PRC0096,M155,20.19,21.81,2025-08-15,Ingredient Inflation
+PRC0097,M156,19.1,21.39,2025-04-10,Market Elasticity Test
