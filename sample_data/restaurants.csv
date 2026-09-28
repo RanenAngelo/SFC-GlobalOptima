@@ -1,0 +1,26 @@
+restaurant_id,restaurant_name,city,state,zone,seating_capacity,opened_date
+REST01,DineIQ New York Downtown,New York,NY,Downtown Flagship,200,2018-01-01
+REST02,DineIQ Chicago Financial,Chicago,IL,Financial District,200,2020-04-01
+REST03,DineIQ San Francisco Uptown,San Francisco,CA,Uptown Promenade,80,2019-12-01
+REST04,DineIQ Austin Waterfront,Austin,TX,Waterfront Pier,60,2023-12-01
+REST05,DineIQ Seattle Suburban,Seattle,WA,Suburban Galleria,150,2018-10-01
+REST06,DineIQ Boston Airport,Boston,MA,Airport Terminal,120,2018-01-01
+REST07,DineIQ Miami Tech,Miami,FL,Tech Corridor,60,2019-04-01
+REST08,DineIQ Denver Historic,Denver,CO,Historic Quarter,150,2022-01-01
+REST09,DineIQ Los Angeles Fashion,Los Angeles,CA,Fashion Avenue,150,2019-12-01
+REST10,DineIQ Atlanta Downtown,Atlanta,GA,Downtown Flagship,200,2023-09-01
+REST11,DineIQ New York Financial,New York,NY,Financial District,120,2019-08-01
+REST12,DineIQ Chicago Uptown,Chicago,IL,Uptown Promenade,150,2020-01-01
+REST13,DineIQ San Francisco Waterfront,San Francisco,CA,Waterfront Pier,250,2024-03-01
+REST14,DineIQ Austin Suburban,Austin,TX,Suburban Galleria,200,2021-06-01
+REST15,DineIQ Seattle Airport,Seattle,WA,Airport Terminal,100,2019-04-01
+REST16,DineIQ Boston Tech,Boston,MA,Tech Corridor,250,2020-02-01
+REST17,DineIQ Miami Historic,Miami,FL,Historic Quarter,60,2021-02-01
+REST18,DineIQ Denver Fashion,Denver,CO,Fashion Avenue,100,2024-06-01
+REST19,DineIQ Los Angeles Downtown,Los Angeles,CA,Downtown Flagship,150,2020-01-01
+REST20,DineIQ Atlanta Financial,Atlanta,GA,Financial District,200,2021-09-01
+REST21,DineIQ New York Uptown,New York,NY,Uptown Promenade,60,2021-02-01
+REST22,DineIQ Chicago Waterfront,Chicago,IL,Waterfront Pier,150,2020-11-01
+REST23,DineIQ San Francisco Suburban,San Francisco,CA,Suburban Galleria,150,2024-06-01
+REST24,DineIQ Austin Airport,Austin,TX,Airport Terminal,150,2019-12-01
+REST25,DineIQ Seattle Tech,Seattle,WA,Tech Corridor,60,2018-11-01

@@ -1,0 +1,11 @@
+promo_id,promo_name,promo_code,discount_pct,start_date,end_date,target_category_id,is_trap
+PR01,New Year Kickoff 15%,NY2025,0.15,2025-01-01,2025-01-15,ALL,False
+PR02,Valentine Sweethearts 20%,LOVE20,0.2,2025-02-10,2025-02-16,CAT10,False
+PR03,Spring Pasta Bonanza 25%,PASTA25,0.25,2025-03-15,2025-03-31,CAT03,False
+PR04,Burger Frenzy 40% Off,BURGER40,0.4,2025-04-10,2025-04-25,CAT04,True
+PR05,Summer Refresh Mocktails BOGO,COOL50,0.3,2025-06-01,2025-06-30,CAT11,False
+PR06,Artisan Pizza Weekend 20%,PIZZA20,0.2,2025-07-01,2025-07-31,CAT02,False
+PR07,Steakhouse Deep Discount 35%,PRIME35,0.35,2025-08-01,2025-08-20,CAT05,True
+PR08,Fall Harvest Soups 15%,HARVEST15,0.15,2025-09-15,2025-10-15,CAT08,False
+PR09,Black Friday Feast 30%,BF30,0.3,2025-11-24,2025-11-30,ALL,False
+PR10,Holiday Gastronomy 20%,CHEER20,0.2,2025-12-15,2025-12-31,ALL,False
