@@ -1,0 +1,147 @@
+{
+  "module": "Customer Intelligence & Churn Analysis",
+  "timestamp": "2026-09-28 23:45:09",
+  "total_customers": 50000,
+  "rfm_summary": {
+    "avg_recency_days": 164.2,
+    "avg_frequency_orders": 1.88,
+    "avg_monetary_spend": 655.83,
+    "avg_order_value": 295.72
+  },
+  "segment_distribution": {
+    "Occasional Customer": 18212,
+    "High-Value Loyal": 10625,
+    "At-Risk": 7444,
+    "Frequent Customer": 6464,
+    "Promotion-Driven": 3968,
+    "New Customer": 3287
+  },
+  "churn_risk_distribution": {
+    "CRITICAL_CHURN_RISK": 19817,
+    "HIGH_CHURN_RISK": 11447,
+    "ACTIVE_ENGAGED": 10592,
+    "MODERATE_CHURN_RISK": 8144
+  },
+  "top_at_risk_high_value_customers": [
+    {
+      "customer_id": "CUST12871",
+      "full_name": "Mia Lopez",
+      "monetary_value": 3049.31,
+      "frequency": 7,
+      "recency_days": 95,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST23747",
+      "full_name": "Ava Thompson",
+      "monetary_value": 2910.16,
+      "frequency": 6,
+      "recency_days": 198,
+      "churn_risk_level": "CRITICAL_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST08039",
+      "full_name": "Camila Perez",
+      "monetary_value": 2834.21,
+      "frequency": 5,
+      "recency_days": 158,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST09545",
+      "full_name": "Lucas Garcia",
+      "monetary_value": 2795.08,
+      "frequency": 6,
+      "recency_days": 216,
+      "churn_risk_level": "CRITICAL_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST35320",
+      "full_name": "Olivia Rodriguez",
+      "monetary_value": 2779.73,
+      "frequency": 8,
+      "recency_days": 97,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST33439",
+      "full_name": "James Sanchez",
+      "monetary_value": 2769.56,
+      "frequency": 7,
+      "recency_days": 131,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST37271",
+      "full_name": "Aiden Johnson",
+      "monetary_value": 2763.69,
+      "frequency": 5,
+      "recency_days": 95,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST14422",
+      "full_name": "Ava Taylor",
+      "monetary_value": 2735.6,
+      "frequency": 6,
+      "recency_days": 120,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST05093",
+      "full_name": "Emily Robinson",
+      "monetary_value": 2692.96,
+      "frequency": 6,
+      "recency_days": 97,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST10616",
+      "full_name": "Mason Lopez",
+      "monetary_value": 2645.63,
+      "frequency": 5,
+      "recency_days": 93,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST03948",
+      "full_name": "Harper Perez",
+      "monetary_value": 2617.42,
+      "frequency": 6,
+      "recency_days": 93,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST13766",
+      "full_name": "Logan Gonzalez",
+      "monetary_value": 2579.37,
+      "frequency": 8,
+      "recency_days": 110,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST13154",
+      "full_name": "Ava Sanchez",
+      "monetary_value": 2574.96,
+      "frequency": 7,
+      "recency_days": 144,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST28912",
+      "full_name": "Aiden Williams",
+      "monetary_value": 2573.96,
+      "frequency": 6,
+      "recency_days": 120,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    },
+    {
+      "customer_id": "CUST42538",
+      "full_name": "Emily Lopez",
+      "monetary_value": 2569.36,
+      "frequency": 7,
+      "recency_days": 157,
+      "churn_risk_level": "HIGH_CHURN_RISK"
+    }
+  ]
+}

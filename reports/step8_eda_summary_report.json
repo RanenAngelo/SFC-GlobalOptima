@@ -1,0 +1,1214 @@
+{
+  "execution_time": "2026-09-25 09:07:35",
+  "total_dishes_analyzed": 156,
+  "total_customers_analyzed": 50000,
+  "top_selling_dishes": [
+    {
+      "item_id": "M001",
+      "item_name": "Wagyu Prime Smashed Burger",
+      "category_name": "Appetizers",
+      "total_quantity_sold": 52892,
+      "total_revenue": 766934.0,
+      "actual_profit_margin_pct": -20.69,
+      "case_tag": "TRICKY_LOSS_MAKER"
+    },
+    {
+      "item_id": "M005",
+      "item_name": "Midnight Crispy Onion Rings",
+      "category_name": "Appetizers",
+      "total_quantity_sold": 35098,
+      "total_revenue": 263235.0,
+      "actual_profit_margin_pct": 80.0,
+      "case_tag": "TRICKY_LOW_RATING_HIGH_SALES"
+    },
+    {
+      "item_id": "M003",
+      "item_name": "Fresh Maine Lobster Thermidor",
+      "category_name": "Appetizers",
+      "total_quantity_sold": 26335,
+      "total_revenue": 1264080.0,
+      "actual_profit_margin_pct": 54.17,
+      "case_tag": "TRICKY_HIGH_WASTAGE"
+    },
+    {
+      "item_id": "M080",
+      "item_name": "Classic Caesar Supreme",
+      "category_name": "Organic Salads",
+      "total_quantity_sold": 17415,
+      "total_revenue": 309638.6999999888,
+      "actual_profit_margin_pct": 78.91,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M092",
+      "item_name": "French Onion Soup",
+      "category_name": "Heritage Soups",
+      "total_quantity_sold": 17354,
+      "total_revenue": 197835.6000000076,
+      "actual_profit_margin_pct": 73.77,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M014",
+      "item_name": "Margherita",
+      "category_name": "Artisan Pizzas",
+      "total_quantity_sold": 17338,
+      "total_revenue": 332022.70000000007,
+      "actual_profit_margin_pct": 64.02,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M066",
+      "item_name": "Grilled Atlantic Salmon",
+      "category_name": "Coastal Seafood",
+      "total_quantity_sold": 17301,
+      "total_revenue": 729756.1799999564,
+      "actual_profit_margin_pct": 68.35,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M131",
+      "item_name": "Sparkling Berry Mocktail",
+      "category_name": "Craft Beverages",
+      "total_quantity_sold": 17243,
+      "total_revenue": 152428.11999999802,
+      "actual_profit_margin_pct": 82.58,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M118",
+      "item_name": "Valrhona Molten Lava Cake",
+      "category_name": "Decadent Desserts",
+      "total_quantity_sold": 17234,
+      "total_revenue": 166135.7599999941,
+      "actual_profit_margin_pct": 78.32,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M006",
+      "item_name": "Double Loaded Truffle Fries",
+      "category_name": "Appetizers",
+      "total_quantity_sold": 17102,
+      "total_revenue": 205224.0,
+      "actual_profit_margin_pct": 66.67,
+      "case_tag": "TRICKY_PROMO_DEPENDENT"
+    }
+  ],
+  "lowest_selling_dishes": [
+    {
+      "item_id": "M010",
+      "item_name": "Smoked Pistachio Gelato Brioche",
+      "category_name": "Appetizers",
+      "total_quantity_sold": 202,
+      "total_revenue": 2323.0,
+      "actual_profit_margin_pct": 69.57,
+      "case_tag": "TRICKY_NEW_ITEM"
+    },
+    {
+      "item_id": "M002",
+      "item_name": "Imperial Beluga Caviar Tartlet",
+      "category_name": "Appetizers",
+      "total_quantity_sold": 971,
+      "total_revenue": 82535.0,
+      "actual_profit_margin_pct": 78.82,
+      "case_tag": "TRICKY_HIGH_MARGIN_LOW_SALES"
+    },
+    {
+      "item_id": "M009",
+      "item_name": "Winter Roasted Chestnut Bisque",
+      "category_name": "Appetizers",
+      "total_quantity_sold": 2886,
+      "total_revenue": 43290.0,
+      "actual_profit_margin_pct": 70.0,
+      "case_tag": "TRICKY_SEASONAL_WINTER"
+    },
+    {
+      "item_id": "M008",
+      "item_name": "Prosecco Brunch Tower",
+      "category_name": "Appetizers",
+      "total_quantity_sold": 3837,
+      "total_revenue": 145806.0,
+      "actual_profit_margin_pct": 68.42,
+      "case_tag": "TRICKY_WEEKEND_ONLY"
+    },
+    {
+      "item_id": "M044",
+      "item_name": "Mushroom Swiss Burger",
+      "category_name": "Gourmet Burgers",
+      "total_quantity_sold": 8518,
+      "total_revenue": 211161.220000005,
+      "actual_profit_margin_pct": 72.49,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M022",
+      "item_name": "Smoked Salmon Pizza",
+      "category_name": "Artisan Pizzas",
+      "total_quantity_sold": 8525,
+      "total_revenue": 170414.75000000087,
+      "actual_profit_margin_pct": 63.28,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M015",
+      "item_name": "Diavola",
+      "category_name": "Artisan Pizzas",
+      "total_quantity_sold": 8527,
+      "total_revenue": 154423.9700000028,
+      "actual_profit_margin_pct": 74.16,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M075",
+      "item_name": "Cioppino Stew",
+      "category_name": "Coastal Seafood",
+      "total_quantity_sold": 8551,
+      "total_revenue": 347683.6600000102,
+      "actual_profit_margin_pct": 59.74,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M073",
+      "item_name": "Halibut Risotto",
+      "category_name": "Coastal Seafood",
+      "total_quantity_sold": 8587,
+      "total_revenue": 462409.9500000043,
+      "actual_profit_margin_pct": 59.22,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M119",
+      "item_name": "Classic Tiramisu Classico",
+      "category_name": "Decadent Desserts",
+      "total_quantity_sold": 8600,
+      "total_revenue": 91417.99999999962,
+      "actual_profit_margin_pct": 79.12,
+      "case_tag": "NORMAL"
+    }
+  ],
+  "highest_revenue_dishes": [
+    {
+      "item_id": "M003",
+      "item_name": "Fresh Maine Lobster Thermidor",
+      "category_name": "Appetizers",
+      "total_revenue": 1264080.0,
+      "total_profit": 684710.0,
+      "actual_profit_margin_pct": 54.17
+    },
+    {
+      "item_id": "M001",
+      "item_name": "Wagyu Prime Smashed Burger",
+      "category_name": "Appetizers",
+      "total_revenue": 766934.0,
+      "total_profit": -158676.0,
+      "actual_profit_margin_pct": -20.69
+    },
+    {
+      "item_id": "M053",
+      "item_name": "Ribeye Steak 12oz",
+      "category_name": "Prime Steaks & Grills",
+      "total_revenue": 751015.8199999562,
+      "total_profit": 506230.2199999854,
+      "actual_profit_margin_pct": 67.41
+    },
+    {
+      "item_id": "M066",
+      "item_name": "Grilled Atlantic Salmon",
+      "category_name": "Coastal Seafood",
+      "total_revenue": 729756.1799999564,
+      "total_profit": 498787.8300000217,
+      "actual_profit_margin_pct": 68.35
+    },
+    {
+      "item_id": "M071",
+      "item_name": "Grilled Octopus",
+      "category_name": "Coastal Seafood",
+      "total_revenue": 515379.20000000077,
+      "total_profit": 292095.9999999973,
+      "actual_profit_margin_pct": 56.68
+    },
+    {
+      "item_id": "M055",
+      "item_name": "New York Strip 10oz",
+      "category_name": "Prime Steaks & Grills",
+      "total_revenue": 513360.9000000064,
+      "total_profit": 339075.540000001,
+      "actual_profit_margin_pct": 66.05
+    },
+    {
+      "item_id": "M065",
+      "item_name": "Veal Chop",
+      "category_name": "Prime Steaks & Grills",
+      "total_revenue": 491509.6200000125,
+      "total_profit": 318030.4799999941,
+      "actual_profit_margin_pct": 64.7
+    },
+    {
+      "item_id": "M062",
+      "item_name": "Chateaubriand",
+      "category_name": "Prime Steaks & Grills",
+      "total_revenue": 482388.7199999926,
+      "total_profit": 271102.6400000042,
+      "actual_profit_margin_pct": 56.2
+    },
+    {
+      "item_id": "M073",
+      "item_name": "Halibut Risotto",
+      "category_name": "Coastal Seafood",
+      "total_revenue": 462409.9500000043,
+      "total_profit": 273839.4299999962,
+      "actual_profit_margin_pct": 59.22
+    },
+    {
+      "item_id": "M067",
+      "item_name": "Pan-Seared Sea Bass",
+      "category_name": "Coastal Seafood",
+      "total_revenue": 451859.660000007,
+      "total_profit": 263137.7300000068,
+      "actual_profit_margin_pct": 58.23
+    }
+  ],
+  "highest_profit_dishes": [
+    {
+      "item_id": "M003",
+      "item_name": "Fresh Maine Lobster Thermidor",
+      "category_name": "Appetizers",
+      "total_profit": 684710.0,
+      "total_revenue": 1264080.0,
+      "actual_profit_margin_pct": 54.17
+    },
+    {
+      "item_id": "M053",
+      "item_name": "Ribeye Steak 12oz",
+      "category_name": "Prime Steaks & Grills",
+      "total_profit": 506230.2199999854,
+      "total_revenue": 751015.8199999562,
+      "actual_profit_margin_pct": 67.41
+    },
+    {
+      "item_id": "M066",
+      "item_name": "Grilled Atlantic Salmon",
+      "category_name": "Coastal Seafood",
+      "total_profit": 498787.8300000217,
+      "total_revenue": 729756.1799999564,
+      "actual_profit_margin_pct": 68.35
+    },
+    {
+      "item_id": "M055",
+      "item_name": "New York Strip 10oz",
+      "category_name": "Prime Steaks & Grills",
+      "total_profit": 339075.540000001,
+      "total_revenue": 513360.9000000064,
+      "actual_profit_margin_pct": 66.05
+    },
+    {
+      "item_id": "M065",
+      "item_name": "Veal Chop",
+      "category_name": "Prime Steaks & Grills",
+      "total_profit": 318030.4799999941,
+      "total_revenue": 491509.6200000125,
+      "actual_profit_margin_pct": 64.7
+    },
+    {
+      "item_id": "M028",
+      "item_name": "Truffle Pasta",
+      "category_name": "Handcrafted Pastas",
+      "total_profit": 300532.67999999237,
+      "total_revenue": 442280.52000001224,
+      "actual_profit_margin_pct": 67.95
+    },
+    {
+      "item_id": "M070",
+      "item_name": "Crab Cakes Chesapeake",
+      "category_name": "Coastal Seafood",
+      "total_profit": 292758.75999999617,
+      "total_revenue": 440551.57999999786,
+      "actual_profit_margin_pct": 66.45
+    },
+    {
+      "item_id": "M071",
+      "item_name": "Grilled Octopus",
+      "category_name": "Coastal Seafood",
+      "total_profit": 292095.9999999973,
+      "total_revenue": 515379.20000000077,
+      "actual_profit_margin_pct": 56.68
+    },
+    {
+      "item_id": "M073",
+      "item_name": "Halibut Risotto",
+      "category_name": "Coastal Seafood",
+      "total_profit": 273839.4299999962,
+      "total_revenue": 462409.9500000043,
+      "actual_profit_margin_pct": 59.22
+    },
+    {
+      "item_id": "M062",
+      "item_name": "Chateaubriand",
+      "category_name": "Prime Steaks & Grills",
+      "total_profit": 271102.6400000042,
+      "total_revenue": 482388.7199999926,
+      "actual_profit_margin_pct": 56.2
+    }
+  ],
+  "highest_margin_dishes": [
+    {
+      "item_id": "M140",
+      "item_name": "Dragonfruit Infusion",
+      "category_name": "Craft Beverages",
+      "base_price": 8.96,
+      "cost_price": 1.1,
+      "actual_profit_margin_pct": 87.72,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M143",
+      "item_name": "Kombucha Tap",
+      "category_name": "Craft Beverages",
+      "base_price": 6.83,
+      "cost_price": 0.88,
+      "actual_profit_margin_pct": 87.12,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M139",
+      "item_name": "Blood Orange Spritz",
+      "category_name": "Craft Beverages",
+      "base_price": 6.12,
+      "cost_price": 0.79,
+      "actual_profit_margin_pct": 87.09,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M133",
+      "item_name": "Smoked Hibiscus Soda",
+      "category_name": "Craft Beverages",
+      "base_price": 6.73,
+      "cost_price": 0.9,
+      "actual_profit_margin_pct": 86.63,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M137",
+      "item_name": "Craft Ginger Beer",
+      "category_name": "Craft Beverages",
+      "base_price": 8.62,
+      "cost_price": 1.16,
+      "actual_profit_margin_pct": 86.54,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M141",
+      "item_name": "Earl Grey London Fog",
+      "category_name": "Craft Beverages",
+      "base_price": 8.74,
+      "cost_price": 1.18,
+      "actual_profit_margin_pct": 86.5,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M134",
+      "item_name": "Passionfruit Fizz",
+      "category_name": "Craft Beverages",
+      "base_price": 8.68,
+      "cost_price": 1.2,
+      "actual_profit_margin_pct": 86.18,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M142",
+      "item_name": "Rosemary Grapefruit Elixir",
+      "category_name": "Craft Beverages",
+      "base_price": 5.6,
+      "cost_price": 0.86,
+      "actual_profit_margin_pct": 84.64,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M122",
+      "item_name": "Pistachio Gelato Sundae",
+      "category_name": "Decadent Desserts",
+      "base_price": 11.93,
+      "cost_price": 1.96,
+      "actual_profit_margin_pct": 83.57,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M129",
+      "item_name": "Affogato Supreme",
+      "category_name": "Decadent Desserts",
+      "base_price": 9.45,
+      "cost_price": 1.58,
+      "actual_profit_margin_pct": 83.28,
+      "case_tag": "NORMAL"
+    }
+  ],
+  "lowest_margin_dishes": [
+    {
+      "item_id": "M001",
+      "item_name": "Wagyu Prime Smashed Burger",
+      "category_name": "Appetizers",
+      "base_price": 14.5,
+      "cost_price": 17.5,
+      "actual_profit_margin_pct": -20.69,
+      "case_tag": "TRICKY_LOSS_MAKER"
+    },
+    {
+      "item_id": "M004",
+      "item_name": "Handmade Saffron Tagliolini",
+      "category_name": "Appetizers",
+      "base_price": 21.0,
+      "cost_price": 19.5,
+      "actual_profit_margin_pct": 7.14,
+      "case_tag": "TRICKY_HIGH_RATING_LOW_PROFIT"
+    },
+    {
+      "item_id": "M003",
+      "item_name": "Fresh Maine Lobster Thermidor",
+      "category_name": "Appetizers",
+      "base_price": 48.0,
+      "cost_price": 22.0,
+      "actual_profit_margin_pct": 54.17,
+      "case_tag": "TRICKY_HIGH_WASTAGE"
+    },
+    {
+      "item_id": "M078",
+      "item_name": "Fish & Chips Craft",
+      "category_name": "Coastal Seafood",
+      "base_price": 44.51,
+      "cost_price": 19.65,
+      "actual_profit_margin_pct": 55.85,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M062",
+      "item_name": "Chateaubriand",
+      "category_name": "Prime Steaks & Grills",
+      "base_price": 53.79,
+      "cost_price": 23.56,
+      "actual_profit_margin_pct": 56.2,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M071",
+      "item_name": "Grilled Octopus",
+      "category_name": "Coastal Seafood",
+      "base_price": 57.52,
+      "cost_price": 24.92,
+      "actual_profit_margin_pct": 56.68,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M064",
+      "item_name": "BBQ Beef Brisket",
+      "category_name": "Prime Steaks & Grills",
+      "base_price": 34.43,
+      "cost_price": 14.72,
+      "actual_profit_margin_pct": 57.25,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M067",
+      "item_name": "Pan-Seared Sea Bass",
+      "category_name": "Coastal Seafood",
+      "base_price": 52.22,
+      "cost_price": 21.81,
+      "actual_profit_margin_pct": 58.23,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M059",
+      "item_name": "Grilled Spatchcock Chicken",
+      "category_name": "Prime Steaks & Grills",
+      "base_price": 34.9,
+      "cost_price": 14.4,
+      "actual_profit_margin_pct": 58.74,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M057",
+      "item_name": "Braised Beef Short Ribs",
+      "category_name": "Prime Steaks & Grills",
+      "base_price": 31.63,
+      "cost_price": 13.03,
+      "actual_profit_margin_pct": 58.8,
+      "case_tag": "NORMAL"
+    }
+  ],
+  "high_wastage_dishes": [
+    {
+      "item_id": "M003",
+      "item_name": "Fresh Maine Lobster Thermidor",
+      "category_name": "Appetizers",
+      "total_waste_qty": 180182.0,
+      "total_waste_cost": 3964004.0,
+      "wastage_pct": 87.25,
+      "case_tag": "TRICKY_HIGH_WASTAGE"
+    },
+    {
+      "item_id": "M062",
+      "item_name": "Chateaubriand",
+      "category_name": "Prime Steaks & Grills",
+      "total_waste_qty": 1552.5,
+      "total_waste_cost": 36576.82,
+      "wastage_pct": 14.76,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M071",
+      "item_name": "Grilled Octopus",
+      "category_name": "Coastal Seafood",
+      "total_waste_qty": 1464.3,
+      "total_waste_cost": 36490.33,
+      "wastage_pct": 14.05,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M073",
+      "item_name": "Halibut Risotto",
+      "category_name": "Coastal Seafood",
+      "total_waste_qty": 1641.4,
+      "total_waste_cost": 36045.09,
+      "wastage_pct": 16.05,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M067",
+      "item_name": "Pan-Seared Sea Bass",
+      "category_name": "Coastal Seafood",
+      "total_waste_qty": 1614.9,
+      "total_waste_cost": 35220.87,
+      "wastage_pct": 15.73,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M078",
+      "item_name": "Fish & Chips Craft",
+      "category_name": "Coastal Seafood",
+      "total_waste_qty": 1664.9,
+      "total_waste_cost": 32714.69,
+      "wastage_pct": 15.89,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M001",
+      "item_name": "Wagyu Prime Smashed Burger",
+      "category_name": "Appetizers",
+      "total_waste_qty": 1732.8,
+      "total_waste_cost": 30324.0,
+      "wastage_pct": 3.17,
+      "case_tag": "TRICKY_LOSS_MAKER"
+    },
+    {
+      "item_id": "M004",
+      "item_name": "Handmade Saffron Tagliolini",
+      "category_name": "Appetizers",
+      "total_waste_qty": 1552.6,
+      "total_waste_cost": 30275.7,
+      "wastage_pct": 14.82,
+      "case_tag": "TRICKY_HIGH_RATING_LOW_PROFIT"
+    },
+    {
+      "item_id": "M055",
+      "item_name": "New York Strip 10oz",
+      "category_name": "Prime Steaks & Grills",
+      "total_waste_qty": 1524.7,
+      "total_waste_cost": 29945.1,
+      "wastage_pct": 14.66,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M065",
+      "item_name": "Veal Chop",
+      "category_name": "Prime Steaks & Grills",
+      "total_waste_qty": 1500.5,
+      "total_waste_cost": 29694.83,
+      "wastage_pct": 14.62,
+      "case_tag": "NORMAL"
+    }
+  ],
+  "best_rated_dishes": [
+    {
+      "item_id": "M004",
+      "item_name": "Handmade Saffron Tagliolini",
+      "category_name": "Appetizers",
+      "avg_rating": 4.84,
+      "rating_count": 604,
+      "actual_profit_margin_pct": 7.14,
+      "case_tag": "TRICKY_HIGH_RATING_LOW_PROFIT"
+    },
+    {
+      "item_id": "M038",
+      "item_name": "Rigatoni Pesto",
+      "category_name": "Handcrafted Pastas",
+      "avg_rating": 4.01,
+      "rating_count": 597,
+      "actual_profit_margin_pct": 69.6,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M107",
+      "item_name": "Crispy Cauliflower Wings",
+      "category_name": "Plant-Based & Vegan",
+      "avg_rating": 3.97,
+      "rating_count": 618,
+      "actual_profit_margin_pct": 79.93,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M037",
+      "item_name": "Lasagna Classica",
+      "category_name": "Handcrafted Pastas",
+      "avg_rating": 3.97,
+      "rating_count": 583,
+      "actual_profit_margin_pct": 73.06,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M155",
+      "item_name": "Croque Madame",
+      "category_name": "Brunch & Breakfast",
+      "avg_rating": 3.94,
+      "rating_count": 634,
+      "actual_profit_margin_pct": 71.99,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M069",
+      "item_name": "Tiger Prawn Skewers",
+      "category_name": "Coastal Seafood",
+      "avg_rating": 3.94,
+      "rating_count": 633,
+      "actual_profit_margin_pct": 62.93,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M022",
+      "item_name": "Smoked Salmon Pizza",
+      "category_name": "Artisan Pizzas",
+      "avg_rating": 3.94,
+      "rating_count": 586,
+      "actual_profit_margin_pct": 63.28,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M071",
+      "item_name": "Grilled Octopus",
+      "category_name": "Coastal Seafood",
+      "avg_rating": 3.94,
+      "rating_count": 606,
+      "actual_profit_margin_pct": 56.68,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M086",
+      "item_name": "Superfood Cobb Salad",
+      "category_name": "Organic Salads",
+      "avg_rating": 3.94,
+      "rating_count": 603,
+      "actual_profit_margin_pct": 71.32,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M126",
+      "item_name": "Nutella Churros Board",
+      "category_name": "Decadent Desserts",
+      "avg_rating": 3.93,
+      "rating_count": 595,
+      "actual_profit_margin_pct": 73.95,
+      "case_tag": "NORMAL"
+    }
+  ],
+  "poorly_rated_dishes": [
+    {
+      "item_id": "M005",
+      "item_name": "Midnight Crispy Onion Rings",
+      "category_name": "Appetizers",
+      "avg_rating": 1.7,
+      "rating_count": 2494,
+      "total_quantity_sold": 35098,
+      "case_tag": "TRICKY_LOW_RATING_HIGH_SALES"
+    },
+    {
+      "item_id": "M006",
+      "item_name": "Double Loaded Truffle Fries",
+      "category_name": "Appetizers",
+      "avg_rating": 3.78,
+      "rating_count": 1113,
+      "total_quantity_sold": 17102,
+      "case_tag": "TRICKY_PROMO_DEPENDENT"
+    },
+    {
+      "item_id": "M023",
+      "item_name": "Wild Mushroom Flatbread",
+      "category_name": "Artisan Pizzas",
+      "avg_rating": 3.79,
+      "rating_count": 578,
+      "total_quantity_sold": 8763,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M016",
+      "item_name": "Quattro Formaggi",
+      "category_name": "Artisan Pizzas",
+      "avg_rating": 3.79,
+      "rating_count": 602,
+      "total_quantity_sold": 8781,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M013",
+      "item_name": "Garlic Bread",
+      "category_name": "Appetizers",
+      "avg_rating": 3.79,
+      "rating_count": 643,
+      "total_quantity_sold": 8636,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M008",
+      "item_name": "Prosecco Brunch Tower",
+      "category_name": "Appetizers",
+      "avg_rating": 3.79,
+      "rating_count": 276,
+      "total_quantity_sold": 3837,
+      "case_tag": "TRICKY_WEEKEND_ONLY"
+    },
+    {
+      "item_id": "M095",
+      "item_name": "Tuscan White Bean Soup",
+      "category_name": "Heritage Soups",
+      "avg_rating": 3.79,
+      "rating_count": 598,
+      "total_quantity_sold": 8929,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M132",
+      "item_name": "Cold Pressed Green Detox",
+      "category_name": "Craft Beverages",
+      "avg_rating": 3.79,
+      "rating_count": 634,
+      "total_quantity_sold": 9016,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M116",
+      "item_name": "Pumpkin Ravioli Vegan",
+      "category_name": "Plant-Based & Vegan",
+      "avg_rating": 3.79,
+      "rating_count": 630,
+      "total_quantity_sold": 8995,
+      "case_tag": "NORMAL"
+    },
+    {
+      "item_id": "M027",
+      "item_name": "Tagliatelle Bolognese",
+      "category_name": "Handcrafted Pastas",
+      "avg_rating": 3.8,
+      "rating_count": 652,
+      "total_quantity_sold": 8870,
+      "case_tag": "NORMAL"
+    }
+  ],
+  "popular_categories": [
+    {
+      "category_name": "Coastal Seafood",
+      "order_count": 55375,
+      "total_qty": 122886,
+      "category_revenue": 5310689.9,
+      "category_profit": 3326344.12
+    },
+    {
+      "category_name": "Prime Steaks & Grills",
+      "order_count": 55512,
+      "total_qty": 123608,
+      "category_revenue": 5031341.33,
+      "category_profit": 3193779.96
+    },
+    {
+      "category_name": "Appetizers",
+      "order_count": 67399,
+      "total_qty": 183380,
+      "category_revenue": 3632882.0,
+      "category_profit": 1536066.94
+    },
+    {
+      "category_name": "Handcrafted Pastas",
+      "order_count": 55476,
+      "total_qty": 123126,
+      "category_revenue": 2648440.0,
+      "category_profit": 1807656.06
+    },
+    {
+      "category_name": "Artisan Pizzas",
+      "order_count": 55411,
+      "total_qty": 122314,
+      "category_revenue": 2578071.15,
+      "category_profit": 1710484.81
+    },
+    {
+      "category_name": "Gourmet Burgers",
+      "order_count": 52872,
+      "total_qty": 115428,
+      "category_revenue": 2349727.74,
+      "category_profit": 1604378.6
+    },
+    {
+      "category_name": "Brunch & Breakfast",
+      "order_count": 52735,
+      "total_qty": 115084,
+      "category_revenue": 2142565.93,
+      "category_profit": 1515108.51
+    },
+    {
+      "category_name": "Organic Salads",
+      "order_count": 55613,
+      "total_qty": 123850,
+      "category_revenue": 1916045.12,
+      "category_profit": 1427798.49
+    },
+    {
+      "category_name": "Heritage Soups",
+      "order_count": 55572,
+      "total_qty": 123737,
+      "category_revenue": 1684962.71,
+      "category_profit": 1234967.74
+    },
+    {
+      "category_name": "Plant-Based & Vegan",
+      "order_count": 52851,
+      "total_qty": 115354,
+      "category_revenue": 1684012.44,
+      "category_profit": 1245162.42
+    },
+    {
+      "category_name": "Decadent Desserts",
+      "order_count": 55382,
+      "total_qty": 123182,
+      "category_revenue": 1447013.26,
+      "category_profit": 1108674.86
+    },
+    {
+      "category_name": "Craft Beverages",
+      "order_count": 55468,
+      "total_qty": 123399,
+      "category_revenue": 939873.64,
+      "category_profit": 786956.87
+    }
+  ],
+  "peak_ordering_hours": [
+    {
+      "order_hour": 11,
+      "total_orders": 1591,
+      "total_sales": 520576.11
+    },
+    {
+      "order_hour": 12,
+      "total_orders": 18119,
+      "total_sales": 6064561.32
+    },
+    {
+      "order_hour": 13,
+      "total_orders": 18018,
+      "total_sales": 5984626.96
+    },
+    {
+      "order_hour": 14,
+      "total_orders": 1559,
+      "total_sales": 522847.93
+    },
+    {
+      "order_hour": 15,
+      "total_orders": 1496,
+      "total_sales": 492640.6
+    },
+    {
+      "order_hour": 16,
+      "total_orders": 1578,
+      "total_sales": 527034.55
+    },
+    {
+      "order_hour": 17,
+      "total_orders": 1540,
+      "total_sales": 513596.68
+    },
+    {
+      "order_hour": 18,
+      "total_orders": 12245,
+      "total_sales": 4091927.66
+    },
+    {
+      "order_hour": 19,
+      "total_orders": 12167,
+      "total_sales": 4055362.79
+    },
+    {
+      "order_hour": 20,
+      "total_orders": 12103,
+      "total_sales": 4048209.68
+    },
+    {
+      "order_hour": 21,
+      "total_orders": 12109,
+      "total_sales": 4032064.15
+    },
+    {
+      "order_hour": 22,
+      "total_orders": 1503,
+      "total_sales": 512176.79
+    }
+  ],
+  "channel_mix": [
+    {
+      "order_channel": "Dine-in",
+      "orders_count": 42508,
+      "total_revenue": 14179440.35,
+      "avg_item_price": 30.65
+    },
+    {
+      "order_channel": "Takeaway",
+      "orders_count": 23568,
+      "total_revenue": 7839629.63,
+      "avg_item_price": 30.55
+    },
+    {
+      "order_channel": "Restaurant Website",
+      "orders_count": 16901,
+      "total_revenue": 5644347.83,
+      "avg_item_price": 30.69
+    },
+    {
+      "order_channel": "Third-party Delivery",
+      "orders_count": 11051,
+      "total_revenue": 3702207.41,
+      "avg_item_price": 30.5
+    }
+  ],
+  "location_performance": [
+    {
+      "restaurant_id": "REST08",
+      "restaurant_name": "DineIQ Denver Historic",
+      "city": "Denver",
+      "zone": "Historic Quarter",
+      "orders_count": 3873,
+      "total_revenue": 1291637.79,
+      "total_profit": 843156.48
+    },
+    {
+      "restaurant_id": "REST05",
+      "restaurant_name": "DineIQ Seattle Suburban",
+      "city": "Seattle",
+      "zone": "Suburban Galleria",
+      "orders_count": 3821,
+      "total_revenue": 1289243.99,
+      "total_profit": 841887.95
+    },
+    {
+      "restaurant_id": "REST16",
+      "restaurant_name": "DineIQ Boston Tech",
+      "city": "Boston",
+      "zone": "Tech Corridor",
+      "orders_count": 3860,
+      "total_revenue": 1288595.71,
+      "total_profit": 842064.06
+    },
+    {
+      "restaurant_id": "REST03",
+      "restaurant_name": "DineIQ San Francisco Uptown",
+      "city": "San Francisco",
+      "zone": "Uptown Promenade",
+      "orders_count": 3835,
+      "total_revenue": 1277593.45,
+      "total_profit": 835616.36
+    },
+    {
+      "restaurant_id": "REST25",
+      "restaurant_name": "DineIQ Seattle Tech",
+      "city": "Seattle",
+      "zone": "Tech Corridor",
+      "orders_count": 3810,
+      "total_revenue": 1272541.88,
+      "total_profit": 831962.79
+    },
+    {
+      "restaurant_id": "REST17",
+      "restaurant_name": "DineIQ Miami Historic",
+      "city": "Miami",
+      "zone": "Historic Quarter",
+      "orders_count": 3823,
+      "total_revenue": 1270505.1,
+      "total_profit": 830340.86
+    },
+    {
+      "restaurant_id": "REST13",
+      "restaurant_name": "DineIQ San Francisco Waterfront",
+      "city": "San Francisco",
+      "zone": "Waterfront Pier",
+      "orders_count": 3820,
+      "total_revenue": 1262771.07,
+      "total_profit": 823760.54
+    },
+    {
+      "restaurant_id": "REST04",
+      "restaurant_name": "DineIQ Austin Waterfront",
+      "city": "Austin",
+      "zone": "Waterfront Pier",
+      "orders_count": 3775,
+      "total_revenue": 1262408.55,
+      "total_profit": 826033.9
+    },
+    {
+      "restaurant_id": "REST19",
+      "restaurant_name": "DineIQ Los Angeles Downtown",
+      "city": "Los Angeles",
+      "zone": "Downtown Flagship",
+      "orders_count": 3793,
+      "total_revenue": 1259383.21,
+      "total_profit": 824000.91
+    },
+    {
+      "restaurant_id": "REST21",
+      "restaurant_name": "DineIQ New York Uptown",
+      "city": "New York",
+      "zone": "Uptown Promenade",
+      "orders_count": 3780,
+      "total_revenue": 1258616.04,
+      "total_profit": 822906.48
+    },
+    {
+      "restaurant_id": "REST22",
+      "restaurant_name": "DineIQ Chicago Waterfront",
+      "city": "Chicago",
+      "zone": "Waterfront Pier",
+      "orders_count": 3792,
+      "total_revenue": 1257295.87,
+      "total_profit": 822809.32
+    },
+    {
+      "restaurant_id": "REST12",
+      "restaurant_name": "DineIQ Chicago Uptown",
+      "city": "Chicago",
+      "zone": "Uptown Promenade",
+      "orders_count": 3781,
+      "total_revenue": 1253076.5,
+      "total_profit": 817008.64
+    },
+    {
+      "restaurant_id": "REST15",
+      "restaurant_name": "DineIQ Seattle Airport",
+      "city": "Seattle",
+      "zone": "Airport Terminal",
+      "orders_count": 3729,
+      "total_revenue": 1251074.2,
+      "total_profit": 817739.37
+    },
+    {
+      "restaurant_id": "REST07",
+      "restaurant_name": "DineIQ Miami Tech",
+      "city": "Miami",
+      "zone": "Tech Corridor",
+      "orders_count": 3705,
+      "total_revenue": 1248225.21,
+      "total_profit": 816594.67
+    },
+    {
+      "restaurant_id": "REST20",
+      "restaurant_name": "DineIQ Atlanta Financial",
+      "city": "Atlanta",
+      "zone": "Financial District",
+      "orders_count": 3753,
+      "total_revenue": 1248052.6,
+      "total_profit": 815366.97
+    },
+    {
+      "restaurant_id": "REST23",
+      "restaurant_name": "DineIQ San Francisco Suburban",
+      "city": "San Francisco",
+      "zone": "Suburban Galleria",
+      "orders_count": 3750,
+      "total_revenue": 1247553.27,
+      "total_profit": 814993.58
+    },
+    {
+      "restaurant_id": "REST10",
+      "restaurant_name": "DineIQ Atlanta Downtown",
+      "city": "Atlanta",
+      "zone": "Downtown Flagship",
+      "orders_count": 3727,
+      "total_revenue": 1246004.53,
+      "total_profit": 813983.03
+    },
+    {
+      "restaurant_id": "REST11",
+      "restaurant_name": "DineIQ New York Financial",
+      "city": "New York",
+      "zone": "Financial District",
+      "orders_count": 3708,
+      "total_revenue": 1245487.41,
+      "total_profit": 814838.29
+    },
+    {
+      "restaurant_id": "REST14",
+      "restaurant_name": "DineIQ Austin Suburban",
+      "city": "Austin",
+      "zone": "Suburban Galleria",
+      "orders_count": 3729,
+      "total_revenue": 1241417.47,
+      "total_profit": 811790.13
+    },
+    {
+      "restaurant_id": "REST01",
+      "restaurant_name": "DineIQ New York Downtown",
+      "city": "New York",
+      "zone": "Downtown Flagship",
+      "orders_count": 3725,
+      "total_revenue": 1241400.69,
+      "total_profit": 811121.21
+    },
+    {
+      "restaurant_id": "REST06",
+      "restaurant_name": "DineIQ Boston Airport",
+      "city": "Boston",
+      "zone": "Airport Terminal",
+      "orders_count": 3708,
+      "total_revenue": 1240881.07,
+      "total_profit": 810762.12
+    },
+    {
+      "restaurant_id": "REST09",
+      "restaurant_name": "DineIQ Los Angeles Fashion",
+      "city": "Los Angeles",
+      "zone": "Fashion Avenue",
+      "orders_count": 3678,
+      "total_revenue": 1231364.82,
+      "total_profit": 804349.87
+    },
+    {
+      "restaurant_id": "REST18",
+      "restaurant_name": "DineIQ Denver Fashion",
+      "city": "Denver",
+      "zone": "Fashion Avenue",
+      "orders_count": 3704,
+      "total_revenue": 1230725.41,
+      "total_profit": 803798.67
+    },
+    {
+      "restaurant_id": "REST02",
+      "restaurant_name": "DineIQ Chicago Financial",
+      "city": "Chicago",
+      "zone": "Financial District",
+      "orders_count": 3688,
+      "total_revenue": 1229344.11,
+      "total_profit": 802959.18
+    },
+    {
+      "restaurant_id": "REST24",
+      "restaurant_name": "DineIQ Austin Airport",
+      "city": "Austin",
+      "zone": "Airport Terminal",
+      "orders_count": 3661,
+      "total_revenue": 1220425.27,
+      "total_profit": 797534.0
+    }
+  ]
+}

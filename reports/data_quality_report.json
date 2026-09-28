@@ -1,0 +1,76 @@
+{
+  "missing_values": {
+    "customers": {
+      "email": 625,
+      "phone": 2000
+    },
+    "orders": {
+      "promo_id": 86989
+    },
+    "order_items": {
+      "special_notes": 926180
+    }
+  },
+  "duplicate_orders": {
+    "total_records": 100050,
+    "unique_orders": 100000,
+    "duplicate_count": 50
+  },
+  "duplicate_order_items": {
+    "total_records": 1089973,
+    "unique_order_items": 1089873,
+    "duplicate_count": 100
+  },
+  "invalid_menu_prices": {
+    "invalid_count": 0
+  },
+  "negative_quantities": {
+    "count": 145,
+    "sample_ids": [
+      "OI0007500",
+      "OI0015000",
+      "OI0022500",
+      "OI0030000",
+      "OI0037500"
+    ]
+  },
+  "invalid_dates": {
+    "invalid_format_count": 0
+  },
+  "invalid_ratings": {
+    "count": 26,
+    "sample_invalid_values": [
+      -1.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "referential_integrity": {
+    "orphaned_customer_orders": 0,
+    "orphaned_menu_item_lines": 0,
+    "orphaned_restaurant_orders": 0
+  },
+  "impossible_wastage": {
+    "count": 22,
+    "sample_values": [
+      9999.0,
+      9999.0,
+      9999.0,
+      9999.0,
+      9999.0
+    ]
+  },
+  "invalid_discounts": {
+    "count": 0
+  },
+  "order_status_distribution": {
+    "Refunded": 2003,
+    "Cancelled": 3977,
+    "Completed": 94070
+  },
+  "inventory_units": {
+    "portions": 15900
+  }
+}

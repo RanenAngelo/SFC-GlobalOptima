@@ -1,0 +1,198 @@
+{
+  "step": "Steps 9, 10 & 11: Menu Profitability & Performance Classification",
+  "total_dishes": 156,
+  "medians": {
+    "volume": 8858.0,
+    "margin": 69.615,
+    "revenue": 153882.83500000287,
+    "rating": 3.87
+  },
+  "classification_breakdown": {
+    "Low Performer": 52,
+    "Volume Driver": 41,
+    "Hidden Opportunity": 41,
+    "Profit Driver": 22
+  },
+  "tricky_cases_diagnostics": [
+    {
+      "item_id": "M004",
+      "item_name": "Handmade Saffron Tagliolini",
+      "case_tag": "TRICKY_HIGH_RATING_LOW_PROFIT",
+      "assigned_class": "Volume Driver",
+      "metrics": {
+        "units_sold": 8927,
+        "revenue": 187467.0,
+        "profit": 13390.5,
+        "margin_pct": 7.14,
+        "rating": 4.84,
+        "wastage_pct": 14.82,
+        "promo_dependency_pct": 12.22
+      },
+      "case_name": "Case 4: Highly rated dish with poor profitability",
+      "analysis": "Exceptional rating (4.84/5.0), but razor-thin margin (7.1%). Customers love it, but each sale contributes negligible profit.",
+      "recommendation": "Gradual 8-12% price increase; guest satisfaction and willingness-to-pay are high."
+    },
+    {
+      "item_id": "M009",
+      "item_name": "Winter Roasted Chestnut Bisque",
+      "case_tag": "TRICKY_SEASONAL_WINTER",
+      "assigned_class": "Low Performer",
+      "metrics": {
+        "units_sold": 2886,
+        "revenue": 43290.0,
+        "profit": 30303.0,
+        "margin_pct": 70.0,
+        "rating": 3.82,
+        "wastage_pct": 36.2,
+        "promo_dependency_pct": 9.67
+      },
+      "case_name": "Case 9: Seasonal menu item",
+      "analysis": "Orders concentrated heavily in Q1 and Q4; stagnant in summer months.",
+      "recommendation": "Rotate off summer menu and reintroduce as Winter Limited Time Offer (LTO)."
+    },
+    {
+      "item_id": "M002",
+      "item_name": "Imperial Beluga Caviar Tartlet",
+      "case_tag": "TRICKY_HIGH_MARGIN_LOW_SALES",
+      "assigned_class": "Hidden Opportunity",
+      "metrics": {
+        "units_sold": 971,
+        "revenue": 82535.0,
+        "profit": 65057.0,
+        "margin_pct": 78.82,
+        "rating": 3.69,
+        "wastage_pct": 58.69,
+        "promo_dependency_pct": 11.53
+      },
+      "case_name": "Case 2: Highly profitable but rarely purchased dish",
+      "analysis": "High margin of 78.8%, but only 971 units ordered. High upside potential if promoted.",
+      "recommendation": "Feature on Chef's Tasting Menu or bundle with Champagne pairing."
+    },
+    {
+      "item_id": "M006",
+      "item_name": "Double Loaded Truffle Fries",
+      "case_tag": "TRICKY_PROMO_DEPENDENT",
+      "assigned_class": "Volume Driver",
+      "metrics": {
+        "units_sold": 17102,
+        "revenue": 205224.0,
+        "profit": 136816.0,
+        "margin_pct": 66.67,
+        "rating": 3.78,
+        "wastage_pct": 8.77,
+        "promo_dependency_pct": 12.99
+      },
+      "case_name": "Case 6: Promotion-dependent dish",
+      "analysis": "13.0% of all sales volume occurs exclusively when promotional discounts are active.",
+      "recommendation": "Transition item into fixed combo deals rather than standalone price cuts."
+    },
+    {
+      "item_id": "M007",
+      "item_name": "Spicy Cajun Crawfish Boil",
+      "case_tag": "TRICKY_LOCATION_DIVERGENT",
+      "assigned_class": "Low Performer",
+      "metrics": {
+        "units_sold": 8798,
+        "revenue": 281536.0,
+        "profit": 167162.0,
+        "margin_pct": 59.38,
+        "rating": 3.88,
+        "wastage_pct": 13.4,
+        "promo_dependency_pct": 13.42
+      },
+      "case_name": "Case 7: Dish performing differently across locations",
+      "analysis": "High sales in coastal and nightlife hubs; poor traction in corporate business lunch zones.",
+      "recommendation": "Adopt localized dynamic menus rather than a uniform regional menu."
+    },
+    {
+      "item_id": "M010",
+      "item_name": "Smoked Pistachio Gelato Brioche",
+      "case_tag": "TRICKY_NEW_ITEM",
+      "assigned_class": "Hidden Opportunity",
+      "metrics": {
+        "units_sold": 202,
+        "revenue": 2323.0,
+        "profit": 1616.0,
+        "margin_pct": 69.57,
+        "rating": 3.35,
+        "wastage_pct": 88.35,
+        "promo_dependency_pct": 28.22
+      },
+      "case_name": "Case 10: New menu item with insufficient history",
+      "analysis": "Launched in late December (2025-12-15). Historical volume is naturally limited.",
+      "recommendation": "Maintain Hidden Opportunity incubation status; monitor early reviews before altering price."
+    },
+    {
+      "item_id": "M001",
+      "item_name": "Wagyu Prime Smashed Burger",
+      "case_tag": "TRICKY_LOSS_MAKER",
+      "assigned_class": "Low Performer",
+      "metrics": {
+        "units_sold": 52892,
+        "revenue": 766934.0,
+        "profit": -158676.0,
+        "margin_pct": -20.69,
+        "rating": 3.83,
+        "wastage_pct": 3.17,
+        "promo_dependency_pct": 12.84
+      },
+      "case_name": "Case 1: High-selling, but loss-making dish",
+      "analysis": "Sold 52,892 units generating $766,934.00 revenue, but total profit is negative ($-158,676.00) due to cost ($17.50) exceeding price ($14.50). Correctly classified as Low Performer.",
+      "recommendation": "Immediate repricing to $19.50 or renegotiation of wagyu ingredient supply."
+    },
+    {
+      "item_id": "M003",
+      "item_name": "Fresh Maine Lobster Thermidor",
+      "case_tag": "TRICKY_HIGH_WASTAGE",
+      "assigned_class": "Low Performer",
+      "metrics": {
+        "units_sold": 26335,
+        "revenue": 1264080.0,
+        "profit": 684710.0,
+        "margin_pct": 54.17,
+        "rating": 3.86,
+        "wastage_pct": 87.25,
+        "promo_dependency_pct": 13.05
+      },
+      "case_name": "Case 3: Popular dish with excessive wastage",
+      "analysis": "Strong demand (26,335 units) and high revenue, but excessive kitchen wastage (87.2%) resulting in $3,964,004.00 waste loss.",
+      "recommendation": "Revise batch preparation quantities and train kitchen line on shellfish preservation."
+    },
+    {
+      "item_id": "M008",
+      "item_name": "Prosecco Brunch Tower",
+      "case_tag": "TRICKY_WEEKEND_ONLY",
+      "assigned_class": "Low Performer",
+      "metrics": {
+        "units_sold": 3837,
+        "revenue": 145806.0,
+        "profit": 99762.0,
+        "margin_pct": 68.42,
+        "rating": 3.79,
+        "wastage_pct": 30.48,
+        "promo_dependency_pct": 12.17
+      },
+      "case_name": "Case 8: Dish performing well only during weekends",
+      "analysis": "Over 85% of orders concentrated between Friday evening and Sunday afternoon.",
+      "recommendation": "Designate as a weekend-exclusive feature to streamline weekday inventory."
+    },
+    {
+      "item_id": "M005",
+      "item_name": "Midnight Crispy Onion Rings",
+      "case_tag": "TRICKY_LOW_RATING_HIGH_SALES",
+      "assigned_class": "Volume Driver",
+      "metrics": {
+        "units_sold": 35098,
+        "revenue": 263235.0,
+        "profit": 210588.0,
+        "margin_pct": 80.0,
+        "rating": 1.7,
+        "wastage_pct": 4.32,
+        "promo_dependency_pct": 13.41
+      },
+      "case_name": "Case 5: Low-rated dish with high sales",
+      "analysis": "Poor rating (1.70/5.0), but high transaction volume (35,098 units). Risk of brand erosion.",
+      "recommendation": "Reformulate recipe (reduce greasiness, upgrade breading) while preserving price point."
+    }
+  ]
+}

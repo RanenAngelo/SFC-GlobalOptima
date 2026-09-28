@@ -1,0 +1,505 @@
+{
+  "step": "Steps 23-28: Wastage, Price Sensitivity & Promotion Trap Detection",
+  "timestamp": "2026-09-25 09:18:52",
+  "wastage_analytics": {
+    "total_loss_dollars": 5583721.8,
+    "total_portions_wasted": 420873.6,
+    "waste_by_reason": [
+      {
+        "waste_reason": "Overproduction",
+        "records": 10937,
+        "total_quantity": 84944.2,
+        "total_cost": 1130147.33
+      },
+      {
+        "waste_reason": "Kitchen Error",
+        "records": 11029,
+        "total_quantity": 84404.5,
+        "total_cost": 1116600.89
+      },
+      {
+        "waste_reason": "Storage Temp Deviation",
+        "records": 11005,
+        "total_quantity": 84028.0,
+        "total_cost": 1116532.96
+      },
+      {
+        "waste_reason": "Spoiled Fresh Prep",
+        "records": 10985,
+        "total_quantity": 83586.7,
+        "total_cost": 1110586.22
+      },
+      {
+        "waste_reason": "Expired",
+        "records": 11022,
+        "total_quantity": 83910.2,
+        "total_cost": 1109854.4
+      }
+    ],
+    "waste_by_category": [
+      {
+        "category_name": "Appetizers",
+        "total_cost": 4127491.45,
+        "total_quantity": 198898.6
+      },
+      {
+        "category_name": "Coastal Seafood",
+        "total_cost": 336232.74,
+        "total_quantity": 20572.0
+      },
+      {
+        "category_name": "Prime Steaks & Grills",
+        "total_cost": 291717.93,
+        "total_quantity": 19518.9
+      },
+      {
+        "category_name": "Artisan Pizzas",
+        "total_cost": 142658.35,
+        "total_quantity": 20059.1
+      },
+      {
+        "category_name": "Handcrafted Pastas",
+        "total_cost": 135135.66,
+        "total_quantity": 20094.7
+      },
+      {
+        "category_name": "Gourmet Burgers",
+        "total_cost": 127284.66,
+        "total_quantity": 19749.8
+      },
+      {
+        "category_name": "Brunch & Breakfast",
+        "total_cost": 109411.33,
+        "total_quantity": 20110.0
+      },
+      {
+        "category_name": "Organic Salads",
+        "total_cost": 81670.76,
+        "total_quantity": 20598.9
+      },
+      {
+        "category_name": "Plant-Based & Vegan",
+        "total_cost": 76572.5,
+        "total_quantity": 20177.3
+      },
+      {
+        "category_name": "Heritage Soups",
+        "total_cost": 72149.17,
+        "total_quantity": 19578.7
+      },
+      {
+        "category_name": "Decadent Desserts",
+        "total_cost": 57863.1,
+        "total_quantity": 20521.9
+      },
+      {
+        "category_name": "Craft Beverages",
+        "total_cost": 25534.15,
+        "total_quantity": 20993.7
+      }
+    ],
+    "critical_risk_dishes": [
+      {
+        "item_id": "M003",
+        "item_name": "Fresh Maine Lobster Thermidor",
+        "category_name": "Appetizers",
+        "case_tag": "TRICKY_HIGH_WASTAGE",
+        "incident_count": 11291,
+        "total_quantity_wasted": 180182.0,
+        "total_cost_wasted": 3964004.0,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      },
+      {
+        "item_id": "M062",
+        "item_name": "Chateaubriand",
+        "category_name": "Prime Steaks & Grills",
+        "case_tag": "NORMAL",
+        "incident_count": 286,
+        "total_quantity_wasted": 1552.5,
+        "total_cost_wasted": 36576.82,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      },
+      {
+        "item_id": "M071",
+        "item_name": "Grilled Octopus",
+        "category_name": "Coastal Seafood",
+        "case_tag": "NORMAL",
+        "incident_count": 272,
+        "total_quantity_wasted": 1464.3,
+        "total_cost_wasted": 36490.33,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      },
+      {
+        "item_id": "M073",
+        "item_name": "Halibut Risotto",
+        "category_name": "Coastal Seafood",
+        "case_tag": "NORMAL",
+        "incident_count": 316,
+        "total_quantity_wasted": 1641.4,
+        "total_cost_wasted": 36045.09,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      },
+      {
+        "item_id": "M067",
+        "item_name": "Pan-Seared Sea Bass",
+        "category_name": "Coastal Seafood",
+        "case_tag": "NORMAL",
+        "incident_count": 284,
+        "total_quantity_wasted": 1614.9,
+        "total_cost_wasted": 35220.87,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      },
+      {
+        "item_id": "M078",
+        "item_name": "Fish & Chips Craft",
+        "category_name": "Coastal Seafood",
+        "case_tag": "NORMAL",
+        "incident_count": 294,
+        "total_quantity_wasted": 1664.9,
+        "total_cost_wasted": 32714.69,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      },
+      {
+        "item_id": "M001",
+        "item_name": "Wagyu Prime Smashed Burger",
+        "category_name": "Appetizers",
+        "case_tag": "TRICKY_LOSS_MAKER",
+        "incident_count": 317,
+        "total_quantity_wasted": 1732.8,
+        "total_cost_wasted": 30324.0,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      },
+      {
+        "item_id": "M004",
+        "item_name": "Handmade Saffron Tagliolini",
+        "category_name": "Appetizers",
+        "case_tag": "TRICKY_HIGH_RATING_LOW_PROFIT",
+        "incident_count": 280,
+        "total_quantity_wasted": 1552.6,
+        "total_cost_wasted": 30275.7,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      },
+      {
+        "item_id": "M055",
+        "item_name": "New York Strip 10oz",
+        "category_name": "Prime Steaks & Grills",
+        "case_tag": "NORMAL",
+        "incident_count": 274,
+        "total_quantity_wasted": 1524.7,
+        "total_cost_wasted": 29945.1,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      },
+      {
+        "item_id": "M065",
+        "item_name": "Veal Chop",
+        "category_name": "Prime Steaks & Grills",
+        "case_tag": "NORMAL",
+        "incident_count": 269,
+        "total_quantity_wasted": 1500.5,
+        "total_cost_wasted": 29694.83,
+        "wastage_risk_tier": "CRITICAL_WASTE_RISK"
+      }
+    ]
+  },
+  "price_intelligence": {
+    "sensitivity_breakdown": {
+      "Low Price Sensitivity": 96,
+      "Moderately Price Sensitive": 41,
+      "Highly Price Sensitive": 19
+    },
+    "sample_sensitivity_table": [
+      {
+        "item_id": "M001",
+        "item_name": "Wagyu Prime Smashed Burger",
+        "category_name": "Appetizers",
+        "current_price": 14.5,
+        "cost_price": 17.5,
+        "price_elasticity": 1.83,
+        "sensitivity_tier": "Highly Price Sensitive",
+        "pricing_recommendation": "Maintain price ceiling; volume will drop sharply upon price hikes. Focus on portion engineering."
+      },
+      {
+        "item_id": "M002",
+        "item_name": "Imperial Beluga Caviar Tartlet",
+        "category_name": "Appetizers",
+        "current_price": 85.0,
+        "cost_price": 18.0,
+        "price_elasticity": 4.84,
+        "sensitivity_tier": "Highly Price Sensitive",
+        "pricing_recommendation": "Maintain price ceiling; volume will drop sharply upon price hikes. Focus on portion engineering."
+      },
+      {
+        "item_id": "M003",
+        "item_name": "Fresh Maine Lobster Thermidor",
+        "category_name": "Appetizers",
+        "current_price": 48.0,
+        "cost_price": 22.0,
+        "price_elasticity": 0.18,
+        "sensitivity_tier": "Low Price Sensitivity",
+        "pricing_recommendation": "Inelastic demand; premium guest willingness-to-pay. Opportunity for 8-12% margin expansion."
+      },
+      {
+        "item_id": "M004",
+        "item_name": "Handmade Saffron Tagliolini",
+        "category_name": "Appetizers",
+        "current_price": 21.0,
+        "cost_price": 19.5,
+        "price_elasticity": 1.95,
+        "sensitivity_tier": "Highly Price Sensitive",
+        "pricing_recommendation": "Maintain price ceiling; volume will drop sharply upon price hikes. Focus on portion engineering."
+      },
+      {
+        "item_id": "M005",
+        "item_name": "Midnight Crispy Onion Rings",
+        "category_name": "Appetizers",
+        "current_price": 7.5,
+        "cost_price": 1.5,
+        "price_elasticity": 0.15,
+        "sensitivity_tier": "Low Price Sensitivity",
+        "pricing_recommendation": "Inelastic demand; premium guest willingness-to-pay. Opportunity for 8-12% margin expansion."
+      },
+      {
+        "item_id": "M006",
+        "item_name": "Double Loaded Truffle Fries",
+        "category_name": "Appetizers",
+        "current_price": 12.0,
+        "cost_price": 4.0,
+        "price_elasticity": 2.04,
+        "sensitivity_tier": "Highly Price Sensitive",
+        "pricing_recommendation": "Maintain price ceiling; volume will drop sharply upon price hikes. Focus on portion engineering."
+      },
+      {
+        "item_id": "M007",
+        "item_name": "Spicy Cajun Crawfish Boil",
+        "category_name": "Appetizers",
+        "current_price": 32.0,
+        "cost_price": 13.0,
+        "price_elasticity": 0.23,
+        "sensitivity_tier": "Low Price Sensitivity",
+        "pricing_recommendation": "Inelastic demand; premium guest willingness-to-pay. Opportunity for 8-12% margin expansion."
+      },
+      {
+        "item_id": "M008",
+        "item_name": "Prosecco Brunch Tower",
+        "category_name": "Appetizers",
+        "current_price": 38.0,
+        "cost_price": 12.0,
+        "price_elasticity": 0.11,
+        "sensitivity_tier": "Low Price Sensitivity",
+        "pricing_recommendation": "Inelastic demand; premium guest willingness-to-pay. Opportunity for 8-12% margin expansion."
+      },
+      {
+        "item_id": "M009",
+        "item_name": "Winter Roasted Chestnut Bisque",
+        "category_name": "Appetizers",
+        "current_price": 15.0,
+        "cost_price": 4.5,
+        "price_elasticity": 6.81,
+        "sensitivity_tier": "Highly Price Sensitive",
+        "pricing_recommendation": "Maintain price ceiling; volume will drop sharply upon price hikes. Focus on portion engineering."
+      },
+      {
+        "item_id": "M010",
+        "item_name": "Smoked Pistachio Gelato Brioche",
+        "category_name": "Appetizers",
+        "current_price": 11.5,
+        "cost_price": 3.5,
+        "price_elasticity": 10909.23,
+        "sensitivity_tier": "Highly Price Sensitive",
+        "pricing_recommendation": "Maintain price ceiling; volume will drop sharply upon price hikes. Focus on portion engineering."
+      },
+      {
+        "item_id": "M011",
+        "item_name": "Hummus Trio",
+        "category_name": "Appetizers",
+        "current_price": 14.9,
+        "cost_price": 3.68,
+        "price_elasticity": 0.77,
+        "sensitivity_tier": "Moderately Price Sensitive",
+        "pricing_recommendation": "Can withstand modest 3-5% inflation-based adjustments if communicated with menu refresh."
+      },
+      {
+        "item_id": "M012",
+        "item_name": "Empanadas",
+        "category_name": "Appetizers",
+        "current_price": 16.9,
+        "cost_price": 3.95,
+        "price_elasticity": 1.8,
+        "sensitivity_tier": "Highly Price Sensitive",
+        "pricing_recommendation": "Maintain price ceiling; volume will drop sharply upon price hikes. Focus on portion engineering."
+      },
+      {
+        "item_id": "M013",
+        "item_name": "Garlic Bread",
+        "category_name": "Appetizers",
+        "current_price": 12.6,
+        "cost_price": 4.35,
+        "price_elasticity": 1.85,
+        "sensitivity_tier": "Highly Price Sensitive",
+        "pricing_recommendation": "Maintain price ceiling; volume will drop sharply upon price hikes. Focus on portion engineering."
+      },
+      {
+        "item_id": "M014",
+        "item_name": "Margherita",
+        "category_name": "Artisan Pizzas",
+        "current_price": 19.15,
+        "cost_price": 6.89,
+        "price_elasticity": 0.05,
+        "sensitivity_tier": "Low Price Sensitivity",
+        "pricing_recommendation": "Inelastic demand; premium guest willingness-to-pay. Opportunity for 8-12% margin expansion."
+      },
+      {
+        "item_id": "M015",
+        "item_name": "Diavola",
+        "category_name": "Artisan Pizzas",
+        "current_price": 18.11,
+        "cost_price": 4.68,
+        "price_elasticity": 0.43,
+        "sensitivity_tier": "Low Price Sensitivity",
+        "pricing_recommendation": "Inelastic demand; premium guest willingness-to-pay. Opportunity for 8-12% margin expansion."
+      }
+    ]
+  },
+  "promotion_evaluations": [
+    {
+      "promo_id": "PR01",
+      "promo_name": "New Year Kickoff 15%",
+      "discount_pct": 0.15,
+      "orders_generated": 942,
+      "gross_sales": 317548.78,
+      "discount_given": 47632.17,
+      "net_revenue": 269916.61,
+      "total_cogs": 110314.6,
+      "net_profit": 159602.01,
+      "realized_margin_pct": 59.1,
+      "is_promotion_trap": false,
+      "audit_diagnosis": "Healthy promotional campaign generating net positive margin."
+    },
+    {
+      "promo_id": "PR02",
+      "promo_name": "Valentine Sweethearts 20%",
+      "discount_pct": 0.2,
+      "orders_generated": 443,
+      "gross_sales": 143261.65,
+      "discount_given": 28652.32,
+      "net_revenue": 114609.33,
+      "total_cogs": 49659.31,
+      "net_profit": 64950.02,
+      "realized_margin_pct": 56.7,
+      "is_promotion_trap": false,
+      "audit_diagnosis": "Healthy promotional campaign generating net positive margin."
+    },
+    {
+      "promo_id": "PR03",
+      "promo_name": "Spring Pasta Bonanza 25%",
+      "discount_pct": 0.25,
+      "orders_generated": 1074,
+      "gross_sales": 354689.38,
+      "discount_given": 88672.43,
+      "net_revenue": 266016.95,
+      "total_cogs": 122732.15,
+      "net_profit": 143284.8,
+      "realized_margin_pct": 53.9,
+      "is_promotion_trap": false,
+      "audit_diagnosis": "Healthy promotional campaign generating net positive margin."
+    },
+    {
+      "promo_id": "PR04",
+      "promo_name": "Burger Frenzy 40% Off",
+      "discount_pct": 0.4,
+      "orders_generated": 1046,
+      "gross_sales": 352029.04,
+      "discount_given": 140811.58,
+      "net_revenue": 211217.46,
+      "total_cogs": 121933.59,
+      "net_profit": 89283.87,
+      "realized_margin_pct": 42.3,
+      "is_promotion_trap": true,
+      "audit_diagnosis": "PROMOTION TRAP: Deep discount (40%) cannibalized profit margins down to 42.3%. Sales volume spiked but net profit collapsed."
+    },
+    {
+      "promo_id": "PR05",
+      "promo_name": "Summer Refresh Mocktails BOGO",
+      "discount_pct": 0.3,
+      "orders_generated": 1930,
+      "gross_sales": 635790.06,
+      "discount_given": 190737.07,
+      "net_revenue": 445052.99,
+      "total_cogs": 219375.74,
+      "net_profit": 225677.25,
+      "realized_margin_pct": 50.7,
+      "is_promotion_trap": false,
+      "audit_diagnosis": "Healthy promotional campaign generating net positive margin."
+    },
+    {
+      "promo_id": "PR06",
+      "promo_name": "Artisan Pizza Weekend 20%",
+      "discount_pct": 0.2,
+      "orders_generated": 1959,
+      "gross_sales": 652785.31,
+      "discount_given": 130557.06,
+      "net_revenue": 522228.25,
+      "total_cogs": 227016.81,
+      "net_profit": 295211.44,
+      "realized_margin_pct": 56.5,
+      "is_promotion_trap": false,
+      "audit_diagnosis": "Healthy promotional campaign generating net positive margin."
+    },
+    {
+      "promo_id": "PR07",
+      "promo_name": "Steakhouse Deep Discount 35%",
+      "discount_pct": 0.35,
+      "orders_generated": 1360,
+      "gross_sales": 452982.74,
+      "discount_given": 158544.11,
+      "net_revenue": 294438.63,
+      "total_cogs": 157334.51,
+      "net_profit": 137104.12,
+      "realized_margin_pct": 46.6,
+      "is_promotion_trap": true,
+      "audit_diagnosis": "PROMOTION TRAP: Deep discount (35%) cannibalized profit margins down to 46.6%. Sales volume spiked but net profit collapsed."
+    },
+    {
+      "promo_id": "PR08",
+      "promo_name": "Fall Harvest Soups 15%",
+      "discount_pct": 0.15,
+      "orders_generated": 2008,
+      "gross_sales": 664463.12,
+      "discount_given": 99669.3,
+      "net_revenue": 564793.82,
+      "total_cogs": 230753.4,
+      "net_profit": 334040.42,
+      "realized_margin_pct": 59.1,
+      "is_promotion_trap": false,
+      "audit_diagnosis": "Healthy promotional campaign generating net positive margin."
+    },
+    {
+      "promo_id": "PR09",
+      "promo_name": "Black Friday Feast 30%",
+      "discount_pct": 0.3,
+      "orders_generated": 443,
+      "gross_sales": 144508.25,
+      "discount_given": 43352.37,
+      "net_revenue": 101155.88,
+      "total_cogs": 49680.92,
+      "net_profit": 51474.96,
+      "realized_margin_pct": 50.9,
+      "is_promotion_trap": false,
+      "audit_diagnosis": "Healthy promotional campaign generating net positive margin."
+    },
+    {
+      "promo_id": "PR10",
+      "promo_name": "Holiday Gastronomy 20%",
+      "discount_pct": 0.2,
+      "orders_generated": 1071,
+      "gross_sales": 357009.09,
+      "discount_given": 71401.86,
+      "net_revenue": 285607.23,
+      "total_cogs": 123337.24,
+      "net_profit": 162269.99,
+      "realized_margin_pct": 56.8,
+      "is_promotion_trap": false,
+      "audit_diagnosis": "Healthy promotional campaign generating net positive margin."
+    }
+  ]
+}

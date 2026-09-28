@@ -1,0 +1,129 @@
+{
+  "step": "Step 13: Independent Python Data Science Pipeline",
+  "timestamp": "2026-09-25 09:12:16",
+  "total_records": 156,
+  "features_used": [
+    "total_quantity_sold",
+    "total_revenue",
+    "unit_contribution_margin",
+    "actual_profit_margin_pct",
+    "avg_rating",
+    "total_waste_cost",
+    "wastage_pct",
+    "repeat_purchase_rate",
+    "promotion_dependency_pct"
+  ],
+  "algorithms_tested": [
+    {
+      "algorithm": "Random Forest (Scikit-Learn)",
+      "training_time_sec": 0.243,
+      "test_accuracy": 0.9688,
+      "test_f1_macro": 0.9606,
+      "test_precision_macro": 0.9583,
+      "test_recall_macro": 0.9688,
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "algorithm": "XGBoost Classifier",
+      "training_time_sec": 0.256,
+      "test_accuracy": 1.0,
+      "test_f1_macro": 1.0,
+      "test_precision_macro": 1.0,
+      "test_recall_macro": 1.0,
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "algorithm": "Logistic Regression (Scikit-Learn)",
+      "training_time_sec": 0.018,
+      "test_accuracy": 0.375,
+      "test_f1_macro": 0.3878,
+      "test_precision_macro": 0.3981,
+      "test_recall_macro": 0.3869,
+      "confusion_matrix": [
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          3
+        ]
+      ]
+    }
+  ],
+  "selected_model": "XGBoost Classifier",
+  "best_macro_f1": 1.0,
+  "class_mapping": {
+    "0": "Hidden Opportunity",
+    "1": "Low Performer",
+    "2": "Profit Driver",
+    "3": "Volume Driver"
+  },
+  "model_save_path": "C:\\Users\\lenovo\\Desktop\\DineIQ\\models\\python_best_model.joblib"
+}

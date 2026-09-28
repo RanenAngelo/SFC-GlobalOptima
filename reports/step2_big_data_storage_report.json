@@ -1,0 +1,103 @@
+{
+  "step": "Step 2: Big Data Storage",
+  "timestamp": "2026-09-25 08:50:12",
+  "formats_supported": [
+    "CSV",
+    "JSON",
+    "Parquet (Snappy Columnar)",
+    "SQLite (Relational with Indexes)"
+  ],
+  "storage_metrics": [
+    {
+      "table": "customers",
+      "row_count": 50000,
+      "csv_size_mb": 5.13,
+      "parquet_size_mb": 1.47,
+      "compression_savings_pct": 71.3,
+      "duration_sec": 0.32
+    },
+    {
+      "table": "inventory",
+      "row_count": 15900,
+      "csv_size_mb": 0.97,
+      "parquet_size_mb": 0.2,
+      "compression_savings_pct": 79.6,
+      "duration_sec": 0.06
+    },
+    {
+      "table": "menu_categories",
+      "row_count": 12,
+      "csv_size_mb": 0.0,
+      "parquet_size_mb": 0.0,
+      "compression_savings_pct": -252.3,
+      "duration_sec": 0.01
+    },
+    {
+      "table": "menu_items",
+      "row_count": 156,
+      "csv_size_mb": 0.01,
+      "parquet_size_mb": 0.01,
+      "compression_savings_pct": -7.4,
+      "duration_sec": 0.01
+    },
+    {
+      "table": "orders",
+      "row_count": 100050,
+      "csv_size_mb": 9.08,
+      "parquet_size_mb": 3.17,
+      "compression_savings_pct": 65.1,
+      "duration_sec": 0.86
+    },
+    {
+      "table": "order_items",
+      "row_count": 1089973,
+      "csv_size_mb": 49.31,
+      "parquet_size_mb": 11.62,
+      "compression_savings_pct": 76.4,
+      "duration_sec": 3.66
+    },
+    {
+      "table": "pricing_history",
+      "row_count": 97,
+      "csv_size_mb": 0.01,
+      "parquet_size_mb": 0.01,
+      "compression_savings_pct": -26.4,
+      "duration_sec": 0.01
+    },
+    {
+      "table": "promotions",
+      "row_count": 10,
+      "csv_size_mb": 0.0,
+      "parquet_size_mb": 0.01,
+      "compression_savings_pct": -478.0,
+      "duration_sec": 0.01
+    },
+    {
+      "table": "ratings",
+      "row_count": 105000,
+      "csv_size_mb": 9.18,
+      "parquet_size_mb": 2.72,
+      "compression_savings_pct": 70.4,
+      "duration_sec": 0.71
+    },
+    {
+      "table": "restaurants",
+      "row_count": 25,
+      "csv_size_mb": 0.0,
+      "parquet_size_mb": 0.01,
+      "compression_savings_pct": -201.1,
+      "duration_sec": 0.01
+    },
+    {
+      "table": "wastage",
+      "row_count": 55000,
+      "csv_size_mb": 3.14,
+      "parquet_size_mb": 0.7,
+      "compression_savings_pct": 77.5,
+      "duration_sec": 0.19
+    }
+  ],
+  "database_file": "C:\\Users\\lenovo\\Desktop\\DineIQ\\database\\dineiq.db",
+  "database_size_mb": 164.62,
+  "parquet_directory": "C:\\Users\\lenovo\\Desktop\\DineIQ\\parquet_data"
+}

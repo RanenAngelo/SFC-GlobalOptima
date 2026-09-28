@@ -1,0 +1,485 @@
+{
+  "module": "Anomalies, Slow Movers, Location & Channel Intelligence",
+  "timestamp": "2026-09-28 23:45:20",
+  "rating_anomalies": [],
+  "sales_anomalies": [
+    {
+      "anomaly_type": "ABNORMAL_HIGH_BASKET_VALUE",
+      "order_id": "ORD086749",
+      "customer_id": "CUST48306",
+      "restaurant_id": "REST08",
+      "order_datetime": "2025-11-11 12:16:55",
+      "total_amount": 1235.35,
+      "diagnosis": "Order total ($1,235.35) exceeds 2.5x IQR threshold ($901.58). Potential catering or corporate banquet."
+    },
+    {
+      "anomaly_type": "ABNORMAL_HIGH_BASKET_VALUE",
+      "order_id": "ORD073325",
+      "customer_id": "CUST01436",
+      "restaurant_id": "REST14",
+      "order_datetime": "2025-05-01 20:10:50",
+      "total_amount": 1217.64,
+      "diagnosis": "Order total ($1,217.64) exceeds 2.5x IQR threshold ($901.58). Potential catering or corporate banquet."
+    },
+    {
+      "anomaly_type": "ABNORMAL_HIGH_BASKET_VALUE",
+      "order_id": "ORD094761",
+      "customer_id": "CUST16477",
+      "restaurant_id": "REST07",
+      "order_datetime": "2025-05-23 15:39:45",
+      "total_amount": 1209.63,
+      "diagnosis": "Order total ($1,209.63) exceeds 2.5x IQR threshold ($901.58). Potential catering or corporate banquet."
+    },
+    {
+      "anomaly_type": "ABNORMAL_HIGH_BASKET_VALUE",
+      "order_id": "ORD012161",
+      "customer_id": "CUST35558",
+      "restaurant_id": "REST15",
+      "order_datetime": "2025-12-21 18:07:37",
+      "total_amount": 1156.35,
+      "diagnosis": "Order total ($1,156.35) exceeds 2.5x IQR threshold ($901.58). Potential catering or corporate banquet."
+    },
+    {
+      "anomaly_type": "ABNORMAL_HIGH_BASKET_VALUE",
+      "order_id": "ORD065710",
+      "customer_id": "CUST18490",
+      "restaurant_id": "REST03",
+      "order_datetime": "2025-06-01 12:53:15",
+      "total_amount": 1138.81,
+      "diagnosis": "Order total ($1,138.81) exceeds 2.5x IQR threshold ($901.58). Potential catering or corporate banquet."
+    },
+    {
+      "anomaly_type": "ABNORMAL_HIGH_BASKET_VALUE",
+      "order_id": "ORD093097",
+      "customer_id": "CUST09475",
+      "restaurant_id": "REST15",
+      "order_datetime": "2025-10-30 18:08:19",
+      "total_amount": 1125.32,
+      "diagnosis": "Order total ($1,125.32) exceeds 2.5x IQR threshold ($901.58). Potential catering or corporate banquet."
+    }
+  ],
+  "slow_moving_dishes": [
+    {
+      "item_id": "M009",
+      "item_name": "Winter Roasted Chestnut Bisque",
+      "category_name": "Appetizers",
+      "units_sold": 2886,
+      "revenue": 43290.0,
+      "wastage_cost": 7367.85,
+      "repeat_rate_pct": 2.28,
+      "case_tag": "TRICKY_SEASONAL_WINTER",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    },
+    {
+      "item_id": "M008",
+      "item_name": "Prosecco Brunch Tower",
+      "category_name": "Appetizers",
+      "units_sold": 3837,
+      "revenue": 145806.0,
+      "wastage_cost": 20185.2,
+      "repeat_rate_pct": 2.76,
+      "case_tag": "TRICKY_WEEKEND_ONLY",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    },
+    {
+      "item_id": "M022",
+      "item_name": "Smoked Salmon Pizza",
+      "category_name": "Artisan Pizzas",
+      "units_sold": 8525,
+      "revenue": 170414.75000000087,
+      "wastage_cost": 11351.31,
+      "repeat_rate_pct": 5.83,
+      "case_tag": "NORMAL",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    },
+    {
+      "item_id": "M075",
+      "item_name": "Cioppino Stew",
+      "category_name": "Coastal Seafood",
+      "units_sold": 8551,
+      "revenue": 347683.6600000102,
+      "wastage_cost": 25208.29,
+      "repeat_rate_pct": 5.23,
+      "case_tag": "NORMAL",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    },
+    {
+      "item_id": "M073",
+      "item_name": "Halibut Risotto",
+      "category_name": "Coastal Seafood",
+      "units_sold": 8587,
+      "revenue": 462409.9500000043,
+      "wastage_cost": 36045.09,
+      "repeat_rate_pct": 5.74,
+      "case_tag": "NORMAL",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    },
+    {
+      "item_id": "M013",
+      "item_name": "Garlic Bread",
+      "category_name": "Appetizers",
+      "units_sold": 8636,
+      "revenue": 108813.59999999896,
+      "wastage_cost": 7258.27,
+      "repeat_rate_pct": 5.25,
+      "case_tag": "NORMAL",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    },
+    {
+      "item_id": "M018",
+      "item_name": "Burrata Truffle",
+      "category_name": "Artisan Pizzas",
+      "units_sold": 8637,
+      "revenue": 217220.5500000043,
+      "wastage_cost": 13308.95,
+      "repeat_rate_pct": 5.26,
+      "case_tag": "NORMAL",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    },
+    {
+      "item_id": "M067",
+      "item_name": "Pan-Seared Sea Bass",
+      "category_name": "Coastal Seafood",
+      "units_sold": 8653,
+      "revenue": 451859.660000007,
+      "wastage_cost": 35220.87,
+      "repeat_rate_pct": 5.45,
+      "case_tag": "NORMAL",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    },
+    {
+      "item_id": "M041",
+      "item_name": "Truffle Wagyu Burger",
+      "category_name": "Gourmet Burgers",
+      "units_sold": 8672,
+      "revenue": 206306.88000000495,
+      "wastage_cost": 11295.21,
+      "repeat_rate_pct": 5.4,
+      "case_tag": "NORMAL",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    },
+    {
+      "item_id": "M068",
+      "item_name": "Lobster Tail Thermidor",
+      "category_name": "Coastal Seafood",
+      "units_sold": 8674,
+      "revenue": 268113.3400000068,
+      "wastage_cost": 17640.36,
+      "repeat_rate_pct": 5.56,
+      "case_tag": "NORMAL",
+      "corrective_action": "Deprecate from active menu to eliminate inventory holding cost."
+    }
+  ],
+  "location_intelligence": {
+    "top_performing_location": {
+      "restaurant_id": "REST08",
+      "restaurant_name": "DineIQ Denver Historic",
+      "city": "Denver",
+      "zone": "Historic Quarter",
+      "orders_count": 3873,
+      "total_revenue": 1291637.79,
+      "total_profit": 843156.48,
+      "avg_order_value": 333.5
+    },
+    "lowest_performing_location": {
+      "restaurant_id": "REST24",
+      "restaurant_name": "DineIQ Austin Airport",
+      "city": "Austin",
+      "zone": "Airport Terminal",
+      "orders_count": 3661,
+      "total_revenue": 1220425.27,
+      "total_profit": 797534.0,
+      "avg_order_value": 333.36
+    },
+    "all_locations_summary": [
+      {
+        "restaurant_id": "REST08",
+        "restaurant_name": "DineIQ Denver Historic",
+        "city": "Denver",
+        "zone": "Historic Quarter",
+        "orders_count": 3873,
+        "total_revenue": 1291637.79,
+        "total_profit": 843156.48,
+        "avg_order_value": 333.5
+      },
+      {
+        "restaurant_id": "REST05",
+        "restaurant_name": "DineIQ Seattle Suburban",
+        "city": "Seattle",
+        "zone": "Suburban Galleria",
+        "orders_count": 3821,
+        "total_revenue": 1289243.99,
+        "total_profit": 841887.95,
+        "avg_order_value": 337.41
+      },
+      {
+        "restaurant_id": "REST16",
+        "restaurant_name": "DineIQ Boston Tech",
+        "city": "Boston",
+        "zone": "Tech Corridor",
+        "orders_count": 3860,
+        "total_revenue": 1288595.71,
+        "total_profit": 842064.06,
+        "avg_order_value": 333.83
+      },
+      {
+        "restaurant_id": "REST03",
+        "restaurant_name": "DineIQ San Francisco Uptown",
+        "city": "San Francisco",
+        "zone": "Uptown Promenade",
+        "orders_count": 3835,
+        "total_revenue": 1277593.45,
+        "total_profit": 835616.36,
+        "avg_order_value": 333.14
+      },
+      {
+        "restaurant_id": "REST25",
+        "restaurant_name": "DineIQ Seattle Tech",
+        "city": "Seattle",
+        "zone": "Tech Corridor",
+        "orders_count": 3810,
+        "total_revenue": 1272541.88,
+        "total_profit": 831962.79,
+        "avg_order_value": 334.0
+      },
+      {
+        "restaurant_id": "REST17",
+        "restaurant_name": "DineIQ Miami Historic",
+        "city": "Miami",
+        "zone": "Historic Quarter",
+        "orders_count": 3823,
+        "total_revenue": 1270505.1,
+        "total_profit": 830340.86,
+        "avg_order_value": 332.33
+      },
+      {
+        "restaurant_id": "REST13",
+        "restaurant_name": "DineIQ San Francisco Waterfront",
+        "city": "San Francisco",
+        "zone": "Waterfront Pier",
+        "orders_count": 3820,
+        "total_revenue": 1262771.07,
+        "total_profit": 823760.54,
+        "avg_order_value": 330.57
+      },
+      {
+        "restaurant_id": "REST04",
+        "restaurant_name": "DineIQ Austin Waterfront",
+        "city": "Austin",
+        "zone": "Waterfront Pier",
+        "orders_count": 3775,
+        "total_revenue": 1262408.55,
+        "total_profit": 826033.9,
+        "avg_order_value": 334.41
+      },
+      {
+        "restaurant_id": "REST19",
+        "restaurant_name": "DineIQ Los Angeles Downtown",
+        "city": "Los Angeles",
+        "zone": "Downtown Flagship",
+        "orders_count": 3793,
+        "total_revenue": 1259383.21,
+        "total_profit": 824000.91,
+        "avg_order_value": 332.03
+      },
+      {
+        "restaurant_id": "REST21",
+        "restaurant_name": "DineIQ New York Uptown",
+        "city": "New York",
+        "zone": "Uptown Promenade",
+        "orders_count": 3780,
+        "total_revenue": 1258616.04,
+        "total_profit": 822906.48,
+        "avg_order_value": 332.97
+      },
+      {
+        "restaurant_id": "REST22",
+        "restaurant_name": "DineIQ Chicago Waterfront",
+        "city": "Chicago",
+        "zone": "Waterfront Pier",
+        "orders_count": 3792,
+        "total_revenue": 1257295.87,
+        "total_profit": 822809.32,
+        "avg_order_value": 331.57
+      },
+      {
+        "restaurant_id": "REST12",
+        "restaurant_name": "DineIQ Chicago Uptown",
+        "city": "Chicago",
+        "zone": "Uptown Promenade",
+        "orders_count": 3781,
+        "total_revenue": 1253076.5,
+        "total_profit": 817008.64,
+        "avg_order_value": 331.41
+      },
+      {
+        "restaurant_id": "REST15",
+        "restaurant_name": "DineIQ Seattle Airport",
+        "city": "Seattle",
+        "zone": "Airport Terminal",
+        "orders_count": 3729,
+        "total_revenue": 1251074.2,
+        "total_profit": 817739.37,
+        "avg_order_value": 335.5
+      },
+      {
+        "restaurant_id": "REST07",
+        "restaurant_name": "DineIQ Miami Tech",
+        "city": "Miami",
+        "zone": "Tech Corridor",
+        "orders_count": 3705,
+        "total_revenue": 1248225.21,
+        "total_profit": 816594.67,
+        "avg_order_value": 336.9
+      },
+      {
+        "restaurant_id": "REST20",
+        "restaurant_name": "DineIQ Atlanta Financial",
+        "city": "Atlanta",
+        "zone": "Financial District",
+        "orders_count": 3753,
+        "total_revenue": 1248052.6,
+        "total_profit": 815366.97,
+        "avg_order_value": 332.55
+      },
+      {
+        "restaurant_id": "REST23",
+        "restaurant_name": "DineIQ San Francisco Suburban",
+        "city": "San Francisco",
+        "zone": "Suburban Galleria",
+        "orders_count": 3750,
+        "total_revenue": 1247553.27,
+        "total_profit": 814993.58,
+        "avg_order_value": 332.68
+      },
+      {
+        "restaurant_id": "REST10",
+        "restaurant_name": "DineIQ Atlanta Downtown",
+        "city": "Atlanta",
+        "zone": "Downtown Flagship",
+        "orders_count": 3727,
+        "total_revenue": 1246004.53,
+        "total_profit": 813983.03,
+        "avg_order_value": 334.32
+      },
+      {
+        "restaurant_id": "REST11",
+        "restaurant_name": "DineIQ New York Financial",
+        "city": "New York",
+        "zone": "Financial District",
+        "orders_count": 3708,
+        "total_revenue": 1245487.41,
+        "total_profit": 814838.29,
+        "avg_order_value": 335.89
+      },
+      {
+        "restaurant_id": "REST14",
+        "restaurant_name": "DineIQ Austin Suburban",
+        "city": "Austin",
+        "zone": "Suburban Galleria",
+        "orders_count": 3729,
+        "total_revenue": 1241417.47,
+        "total_profit": 811790.13,
+        "avg_order_value": 332.91
+      },
+      {
+        "restaurant_id": "REST01",
+        "restaurant_name": "DineIQ New York Downtown",
+        "city": "New York",
+        "zone": "Downtown Flagship",
+        "orders_count": 3725,
+        "total_revenue": 1241400.69,
+        "total_profit": 811121.21,
+        "avg_order_value": 333.26
+      },
+      {
+        "restaurant_id": "REST06",
+        "restaurant_name": "DineIQ Boston Airport",
+        "city": "Boston",
+        "zone": "Airport Terminal",
+        "orders_count": 3708,
+        "total_revenue": 1240881.07,
+        "total_profit": 810762.12,
+        "avg_order_value": 334.65
+      },
+      {
+        "restaurant_id": "REST09",
+        "restaurant_name": "DineIQ Los Angeles Fashion",
+        "city": "Los Angeles",
+        "zone": "Fashion Avenue",
+        "orders_count": 3678,
+        "total_revenue": 1231364.82,
+        "total_profit": 804349.87,
+        "avg_order_value": 334.79
+      },
+      {
+        "restaurant_id": "REST18",
+        "restaurant_name": "DineIQ Denver Fashion",
+        "city": "Denver",
+        "zone": "Fashion Avenue",
+        "orders_count": 3704,
+        "total_revenue": 1230725.41,
+        "total_profit": 803798.67,
+        "avg_order_value": 332.27
+      },
+      {
+        "restaurant_id": "REST02",
+        "restaurant_name": "DineIQ Chicago Financial",
+        "city": "Chicago",
+        "zone": "Financial District",
+        "orders_count": 3688,
+        "total_revenue": 1229344.11,
+        "total_profit": 802959.18,
+        "avg_order_value": 333.34
+      },
+      {
+        "restaurant_id": "REST24",
+        "restaurant_name": "DineIQ Austin Airport",
+        "city": "Austin",
+        "zone": "Airport Terminal",
+        "orders_count": 3661,
+        "total_revenue": 1220425.27,
+        "total_profit": 797534.0,
+        "avg_order_value": 333.36
+      }
+    ]
+  },
+  "channel_analysis": [
+    {
+      "order_channel": "Dine-in",
+      "total_orders": 42508,
+      "total_gross_revenue": 14177862.84,
+      "total_discounts_granted": 452397.85,
+      "total_net_revenue": 14823502.28,
+      "average_order_value": 348.72,
+      "discount_rate_pct": 3.2
+    },
+    {
+      "order_channel": "Restaurant Website",
+      "total_orders": 16901,
+      "total_gross_revenue": 5643743.4,
+      "total_discounts_granted": 180390.3,
+      "total_net_revenue": 5900421.71,
+      "average_order_value": 349.12,
+      "discount_rate_pct": 3.2
+    },
+    {
+      "order_channel": "Takeaway",
+      "total_orders": 23568,
+      "total_gross_revenue": 7838954.34,
+      "total_discounts_granted": 254934.39,
+      "total_net_revenue": 8190741.39,
+      "average_order_value": 347.54,
+      "discount_rate_pct": 3.3
+    },
+    {
+      "order_channel": "Third-party Delivery",
+      "total_orders": 11051,
+      "total_gross_revenue": 3701772.59,
+      "total_discounts_granted": 112307.73,
+      "total_net_revenue": 3876622.47,
+      "average_order_value": 350.79,
+      "discount_rate_pct": 3.0
+    }
+  ]
+}

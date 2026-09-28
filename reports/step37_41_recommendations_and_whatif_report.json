@@ -1,0 +1,278 @@
+{
+  "step": "Steps 37-41: Recommendations & What-If Scenario Analysis",
+  "timestamp": "2026-09-25 09:20:47",
+  "total_recommendations": 10,
+  "recommendations": [
+    {
+      "recommendation_id": "REC-001",
+      "domain": "Menu Optimization",
+      "action_title": "Promote High-Margin Hidden Opportunity: Dragonfruit Infusion",
+      "recommended_action": "Feature Dragonfruit Infusion prominently on table tents, digital app headers, and server incentives.",
+      "priority": "High",
+      "potential_annual_impact": "+$19,650.00 incremental gross profit",
+      "evidence": [
+        "High Contribution Margin: 87.7% ($7.86 per plate).",
+        "Customer Satisfaction: 3.88/5.0 average guest rating.",
+        "Low Wastage Footprint: Only 14.9% wastage rate.",
+        "Growth Headroom: Currently ordered 8,636 times (bottom tier volume due to low menu visibility)."
+      ]
+    },
+    {
+      "recommendation_id": "REC-002",
+      "domain": "Menu Optimization",
+      "action_title": "Promote High-Margin Hidden Opportunity: Smoked Hibiscus Soda",
+      "recommended_action": "Feature Smoked Hibiscus Soda prominently on table tents, digital app headers, and server incentives.",
+      "priority": "High",
+      "potential_annual_impact": "+$14,575.00 incremental gross profit",
+      "evidence": [
+        "High Contribution Margin: 86.6% ($5.83 per plate).",
+        "Customer Satisfaction: 3.82/5.0 average guest rating.",
+        "Low Wastage Footprint: Only 15.7% wastage rate.",
+        "Growth Headroom: Currently ordered 8,621 times (bottom tier volume due to low menu visibility)."
+      ]
+    },
+    {
+      "recommendation_id": "REC-003",
+      "domain": "Menu Optimization",
+      "action_title": "Promote High-Margin Hidden Opportunity: Craft Ginger Beer",
+      "recommended_action": "Feature Craft Ginger Beer prominently on table tents, digital app headers, and server incentives.",
+      "priority": "High",
+      "potential_annual_impact": "+$18,650.00 incremental gross profit",
+      "evidence": [
+        "High Contribution Margin: 86.5% ($7.46 per plate).",
+        "Customer Satisfaction: 3.89/5.0 average guest rating.",
+        "Low Wastage Footprint: Only 14.6% wastage rate.",
+        "Growth Headroom: Currently ordered 8,718 times (bottom tier volume due to low menu visibility)."
+      ]
+    },
+    {
+      "recommendation_id": "REC-004",
+      "domain": "Inventory & Wastage",
+      "action_title": "Rationalize Batch Preparation for Fresh Maine Lobster Thermidor",
+      "recommended_action": "Cap daily prep batches to forecasted demand; implement blast chilling or sous-vide portion holds.",
+      "priority": "Critical",
+      "potential_annual_impact": "+$1,585,601.60 waste loss recovery",
+      "evidence": [
+        "Severe Spoilage Expense: $3,964,004.00 discarded in 2025 across 180182.0 portions.",
+        "Wastage Ratio: 87.2% of all prepped inventory ended in kitchen trash.",
+        "Unit Cost Risk: High ingredient cost of $22.00 multiplies waste impact."
+      ]
+    },
+    {
+      "recommendation_id": "REC-005",
+      "domain": "Inventory & Wastage",
+      "action_title": "Rationalize Batch Preparation for Chateaubriand",
+      "recommended_action": "Cap daily prep batches to forecasted demand; implement blast chilling or sous-vide portion holds.",
+      "priority": "Critical",
+      "potential_annual_impact": "+$14,630.73 waste loss recovery",
+      "evidence": [
+        "Severe Spoilage Expense: $36,576.82 discarded in 2025 across 1552.5 portions.",
+        "Wastage Ratio: 14.8% of all prepped inventory ended in kitchen trash.",
+        "Unit Cost Risk: High ingredient cost of $23.56 multiplies waste impact."
+      ]
+    },
+    {
+      "recommendation_id": "REC-006",
+      "domain": "Promotion Management",
+      "action_title": "Discontinue Promotion Trap: Burger Frenzy 40% Off",
+      "recommended_action": "Cancel campaign or restructure from raw price discount into threshold combo deal.",
+      "priority": "Critical",
+      "potential_annual_impact": "+$91,527.53 margin leakage prevented",
+      "evidence": [
+        "Margin Collapse: Realized margin fell to 42.3%.",
+        "Discount Drain: Granted $140,811.58 in price concessions across 1,046 orders.",
+        "Cannibalization: Sales volume increased but eroded net restaurant operating profit."
+      ]
+    },
+    {
+      "recommendation_id": "REC-007",
+      "domain": "Promotion Management",
+      "action_title": "Discontinue Promotion Trap: Steakhouse Deep Discount 35%",
+      "recommended_action": "Cancel campaign or restructure from raw price discount into threshold combo deal.",
+      "priority": "Critical",
+      "potential_annual_impact": "+$103,053.67 margin leakage prevented",
+      "evidence": [
+        "Margin Collapse: Realized margin fell to 46.6%.",
+        "Discount Drain: Granted $158,544.11 in price concessions across 1,360 orders.",
+        "Cannibalization: Sales volume increased but eroded net restaurant operating profit."
+      ]
+    },
+    {
+      "recommendation_id": "REC-008",
+      "domain": "Customer Retention",
+      "action_title": "Automated Win-Back Campaign for Critical Churn Risk Guests",
+      "recommended_action": "Trigger tailored push notification with complimentary Chef's Dessert on their next visit.",
+      "priority": "High",
+      "potential_annual_impact": "+$185,000 in retained recurring guest lifetime spend",
+      "evidence": [
+        "At-Risk Population: 19,817 registered customers have not visited in > 180 days.",
+        "Historical Spend: Top at-risk cohort previously averaged > $300 lifetime spend.",
+        "ROI Justification: 5% win-back recovery delivers over 15x campaign ROI."
+      ]
+    },
+    {
+      "recommendation_id": "REC-009",
+      "domain": "Menu Rationalization",
+      "action_title": "Retire or Overhaul Persistent Low Performer: Winter Roasted Chestnut Bisque",
+      "recommended_action": "Remove Winter Roasted Chestnut Bisque from menu during Q1 refresh; repurpose ingredients.",
+      "priority": "Medium",
+      "potential_annual_impact": "+$7,367.85 holding and waste elimination",
+      "evidence": [
+        "Stagnant Volume: Only 2,886 total orders all year.",
+        "Poor Profitability: Total annual profit contribution of only $30,303.00.",
+        "Kitchen Spoilage: Incurred $7,367.85 in wasted prep portions."
+      ]
+    },
+    {
+      "recommendation_id": "REC-010",
+      "domain": "Menu Rationalization",
+      "action_title": "Retire or Overhaul Persistent Low Performer: Prosecco Brunch Tower",
+      "recommended_action": "Remove Prosecco Brunch Tower from menu during Q1 refresh; repurpose ingredients.",
+      "priority": "Medium",
+      "potential_annual_impact": "+$20,185.20 holding and waste elimination",
+      "evidence": [
+        "Stagnant Volume: Only 3,837 total orders all year.",
+        "Poor Profitability: Total annual profit contribution of only $99,762.00.",
+        "Kitchen Spoilage: Incurred $20,185.20 in wasted prep portions."
+      ]
+    }
+  ],
+  "what_if_scenarios": [
+    {
+      "scenario_name": "Scenario A: 5% Price Increase Across All Menu Items",
+      "disclaimer": "SIMULATED OUTPUTS ARE ECONOMETRIC ESTIMATES RATHER THAN ACTUAL GUARANTEED RESULTS (Step 41)",
+      "inputs": {
+        "price_change_pct": 5.0,
+        "discount_change_pct": 0.0,
+        "waste_reduction_pct": 0.0,
+        "demand_shock_pct": 0.0,
+        "removed_item_id": null
+      },
+      "baseline": {
+        "units_sold": 1515348,
+        "revenue": 31365625.22,
+        "cogs": 10868245.84,
+        "wastage_loss": 5583721.8,
+        "net_profit": 14913657.58,
+        "net_margin_pct": 47.55
+      },
+      "projected": {
+        "units_sold": 1450945,
+        "revenue": 31534215.46,
+        "cogs": 10406345.39,
+        "wastage_loss": 5583721.8,
+        "net_profit": 15544148.26,
+        "net_margin_pct": 49.29
+      },
+      "net_impact": {
+        "revenue_delta": 168590.24,
+        "revenue_delta_pct": 0.54,
+        "net_profit_delta": 630490.68,
+        "net_profit_delta_pct": 4.23,
+        "waste_savings": -0.0
+      }
+    },
+    {
+      "scenario_name": "Scenario B: 20% Kitchen Wastage Reduction via AI Prep Forecasts",
+      "disclaimer": "SIMULATED OUTPUTS ARE ECONOMETRIC ESTIMATES RATHER THAN ACTUAL GUARANTEED RESULTS (Step 41)",
+      "inputs": {
+        "price_change_pct": 0.0,
+        "discount_change_pct": 0.0,
+        "waste_reduction_pct": 20.0,
+        "demand_shock_pct": 0.0,
+        "removed_item_id": null
+      },
+      "baseline": {
+        "units_sold": 1515348,
+        "revenue": 31365625.22,
+        "cogs": 10868245.84,
+        "wastage_loss": 5583721.8,
+        "net_profit": 14913657.58,
+        "net_margin_pct": 47.55
+      },
+      "projected": {
+        "units_sold": 1515348,
+        "revenue": 31365625.22,
+        "cogs": 10868245.84,
+        "wastage_loss": 4466977.44,
+        "net_profit": 16030401.94,
+        "net_margin_pct": 51.11
+      },
+      "net_impact": {
+        "revenue_delta": 0.0,
+        "revenue_delta_pct": 0.0,
+        "net_profit_delta": 1116744.36,
+        "net_profit_delta_pct": 7.49,
+        "waste_savings": 1116744.36
+      }
+    },
+    {
+      "scenario_name": "Scenario C: Full Strategic Optimization (3% Price Opt + 15% Waste Cut + Promo Discipline)",
+      "disclaimer": "SIMULATED OUTPUTS ARE ECONOMETRIC ESTIMATES RATHER THAN ACTUAL GUARANTEED RESULTS (Step 41)",
+      "inputs": {
+        "price_change_pct": 3.0,
+        "discount_change_pct": -2.0,
+        "waste_reduction_pct": 15.0,
+        "demand_shock_pct": 0.0,
+        "removed_item_id": null
+      },
+      "baseline": {
+        "units_sold": 1515348,
+        "revenue": 31365625.22,
+        "cogs": 10868245.84,
+        "wastage_loss": 5583721.8,
+        "net_profit": 14913657.58,
+        "net_margin_pct": 47.55
+      },
+      "projected": {
+        "units_sold": 1476706,
+        "revenue": 32112431.35,
+        "cogs": 10591105.57,
+        "wastage_loss": 4746163.53,
+        "net_profit": 16775162.25,
+        "net_margin_pct": 52.24
+      },
+      "net_impact": {
+        "revenue_delta": 746806.13,
+        "revenue_delta_pct": 2.38,
+        "net_profit_delta": 1861504.67,
+        "net_profit_delta_pct": 12.48,
+        "waste_savings": 837558.27
+      }
+    },
+    {
+      "scenario_name": "Scenario D: Eliminate Loss-Making Wagyu Smashed Burger (M001)",
+      "disclaimer": "SIMULATED OUTPUTS ARE ECONOMETRIC ESTIMATES RATHER THAN ACTUAL GUARANTEED RESULTS (Step 41)",
+      "inputs": {
+        "price_change_pct": 0.0,
+        "discount_change_pct": 0.0,
+        "waste_reduction_pct": 0.0,
+        "demand_shock_pct": 0.0,
+        "removed_item_id": "M001"
+      },
+      "baseline": {
+        "units_sold": 1515348,
+        "revenue": 31365625.22,
+        "cogs": 10868245.84,
+        "wastage_loss": 5583721.8,
+        "net_profit": 14913657.58,
+        "net_margin_pct": 47.55
+      },
+      "projected": {
+        "units_sold": 1462456,
+        "revenue": 30598691.22,
+        "cogs": 9942635.84,
+        "wastage_loss": 5553397.8,
+        "net_profit": 15102657.58,
+        "net_margin_pct": 49.36
+      },
+      "net_impact": {
+        "revenue_delta": -766934.0,
+        "revenue_delta_pct": -2.45,
+        "net_profit_delta": 189000.0,
+        "net_profit_delta_pct": 1.27,
+        "waste_savings": 30324.0
+      }
+    }
+  ]
+}

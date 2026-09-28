@@ -1,0 +1,105 @@
+{
+  "step": "Step 3: Data Ingestion Using Apache Spark",
+  "spark_version": "4.2.0",
+  "master": "local[*]",
+  "tables_ingested": 11,
+  "total_records_ingested": 1416223,
+  "ingestion_metrics": [
+    {
+      "table_name": "menu_categories",
+      "row_count": 12,
+      "column_count": 3,
+      "explicit_schema_load_sec": 7.62,
+      "inferred_schema_load_sec": 1.558,
+      "speedup_factor": 0.2
+    },
+    {
+      "table_name": "restaurants",
+      "row_count": 25,
+      "column_count": 7,
+      "explicit_schema_load_sec": 0.272,
+      "inferred_schema_load_sec": 0.729,
+      "speedup_factor": 2.68
+    },
+    {
+      "table_name": "menu_items",
+      "row_count": 156,
+      "column_count": 8,
+      "explicit_schema_load_sec": 0.341,
+      "inferred_schema_load_sec": 0.601,
+      "speedup_factor": 1.76
+    },
+    {
+      "table_name": "customers",
+      "row_count": 50000,
+      "column_count": 7,
+      "explicit_schema_load_sec": 3.017,
+      "inferred_schema_load_sec": 1.629,
+      "speedup_factor": 0.54
+    },
+    {
+      "table_name": "pricing_history",
+      "row_count": 97,
+      "column_count": 6,
+      "explicit_schema_load_sec": 0.356,
+      "inferred_schema_load_sec": 0.501,
+      "speedup_factor": 1.41
+    },
+    {
+      "table_name": "promotions",
+      "row_count": 10,
+      "column_count": 8,
+      "explicit_schema_load_sec": 0.191,
+      "inferred_schema_load_sec": 1.137,
+      "speedup_factor": 5.95
+    },
+    {
+      "table_name": "orders",
+      "row_count": 100050,
+      "column_count": 11,
+      "explicit_schema_load_sec": 2.142,
+      "inferred_schema_load_sec": 1.268,
+      "speedup_factor": 0.59
+    },
+    {
+      "table_name": "order_items",
+      "row_count": 1089973,
+      "column_count": 8,
+      "explicit_schema_load_sec": 0.502,
+      "inferred_schema_load_sec": 4.744,
+      "speedup_factor": 9.45
+    },
+    {
+      "table_name": "ratings",
+      "row_count": 105000,
+      "column_count": 8,
+      "explicit_schema_load_sec": 0.185,
+      "inferred_schema_load_sec": 0.676,
+      "speedup_factor": 3.65
+    },
+    {
+      "table_name": "inventory",
+      "row_count": 15900,
+      "column_count": 9,
+      "explicit_schema_load_sec": 0.167,
+      "inferred_schema_load_sec": 0.402,
+      "speedup_factor": 2.41
+    },
+    {
+      "table_name": "wastage",
+      "row_count": 55000,
+      "column_count": 7,
+      "explicit_schema_load_sec": 0.137,
+      "inferred_schema_load_sec": 0.468,
+      "speedup_factor": 3.42
+    }
+  ],
+  "parquet_large_file_scan_sec": 0.957,
+  "partition_scan_sec": 1.601,
+  "detected_partitions": [
+    "Dine-in",
+    "Takeaway",
+    "Restaurant Website",
+    "Third-party Delivery"
+  ]
+}

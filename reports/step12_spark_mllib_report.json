@@ -1,0 +1,51 @@
+{
+  "step": "Step 12: Spark MLlib Model Development",
+  "timestamp": "2026-09-25 09:11:07",
+  "total_records": 156,
+  "features_used": [
+    "total_quantity_sold",
+    "total_revenue",
+    "unit_contribution_margin",
+    "actual_profit_margin_pct",
+    "avg_rating",
+    "total_waste_cost",
+    "wastage_pct",
+    "repeat_purchase_rate",
+    "promotion_dependency_pct"
+  ],
+  "algorithms_tested": [
+    {
+      "algorithm": "Random Forest (Spark MLlib)",
+      "training_time_sec": 9.406,
+      "test_accuracy": 0.88,
+      "test_f1_score": 0.8799,
+      "test_precision": 0.9095,
+      "test_recall": 0.88
+    },
+    {
+      "algorithm": "Decision Tree (Spark MLlib)",
+      "training_time_sec": 1.761,
+      "test_accuracy": 0.88,
+      "test_f1_score": 0.8792,
+      "test_precision": 0.883,
+      "test_recall": 0.88
+    },
+    {
+      "algorithm": "Logistic Regression (Spark MLlib)",
+      "training_time_sec": 8.917,
+      "test_accuracy": 0.64,
+      "test_f1_score": 0.6268,
+      "test_precision": 0.7133,
+      "test_recall": 0.64
+    }
+  ],
+  "selected_model": "Random Forest (Spark MLlib)",
+  "best_f1_score": 0.8799,
+  "label_mapping": {
+    "0": "Low Performer",
+    "1": "Hidden Opportunity",
+    "2": "Volume Driver",
+    "3": "Profit Driver"
+  },
+  "model_save_path": "C:\\Users\\lenovo\\Desktop\\DineIQ\\models\\spark_mllib_menu_model"
+}

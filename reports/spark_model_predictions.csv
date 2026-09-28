@@ -1,0 +1,157 @@
+item_id,item_name,category_name,performance_class,spark_predicted_class,prediction,label
+M004,Handmade Saffron Tagliolini,Appetizers,Volume Driver,Volume Driver,2.0,2.0
+M009,Winter Roasted Chestnut Bisque,Appetizers,Low Performer,Hidden Opportunity,1.0,0.0
+M016,Quattro Formaggi,Artisan Pizzas,Low Performer,Low Performer,0.0,0.0
+M033,Gnocchi Gorgonzola,Handcrafted Pastas,Low Performer,Low Performer,0.0,0.0
+M044,Mushroom Swiss Burger,Gourmet Burgers,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M054,Filet Mignon 8oz,Prime Steaks & Grills,Volume Driver,Volume Driver,2.0,2.0
+M056,Tomahawk Cut 32oz,Prime Steaks & Grills,Low Performer,Low Performer,0.0,0.0
+M063,Wagyu Striploin,Prime Steaks & Grills,Low Performer,Low Performer,0.0,0.0
+M068,Lobster Tail Thermidor,Coastal Seafood,Low Performer,Low Performer,0.0,0.0
+M076,Tuna Tataki Bowl,Coastal Seafood,Low Performer,Low Performer,0.0,0.0
+M081,Burrata Heirloom Tomato,Organic Salads,Volume Driver,Volume Driver,2.0,2.0
+M085,Greek Village Salad,Organic Salads,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M086,Superfood Cobb Salad,Organic Salads,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M109,Zucchini Noodles Pesto,Plant-Based & Vegan,Profit Driver,Profit Driver,3.0,3.0
+M127,Key Lime Pie,Decadent Desserts,Low Performer,Low Performer,0.0,0.0
+M144,Classic Eggs Benedict,Brunch & Breakfast,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M002,Imperial Beluga Caviar Tartlet,Appetizers,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M006,Double Loaded Truffle Fries,Appetizers,Volume Driver,Volume Driver,2.0,2.0
+M007,Spicy Cajun Crawfish Boil,Appetizers,Low Performer,Low Performer,0.0,0.0
+M014,Margherita,Artisan Pizzas,Volume Driver,Volume Driver,2.0,2.0
+M017,Prosciutto Funghi,Artisan Pizzas,Low Performer,Low Performer,0.0,0.0
+M018,Burrata Truffle,Artisan Pizzas,Low Performer,Low Performer,0.0,0.0
+M023,Wild Mushroom Flatbread,Artisan Pizzas,Low Performer,Low Performer,0.0,0.0
+M024,Capricciosa,Artisan Pizzas,Low Performer,Low Performer,0.0,0.0
+M031,Penne Arrabbiata,Handcrafted Pastas,Volume Driver,Volume Driver,2.0,2.0
+M032,Ravioli Ricotta,Handcrafted Pastas,Profit Driver,Profit Driver,3.0,3.0
+M042,Smoked Bacon Burger,Gourmet Burgers,Volume Driver,Volume Driver,2.0,2.0
+M050,Jalapeno Cheddar Burger,Gourmet Burgers,Volume Driver,Volume Driver,2.0,2.0
+M066,Grilled Atlantic Salmon,Coastal Seafood,Volume Driver,Volume Driver,2.0,2.0
+M070,Crab Cakes Chesapeake,Coastal Seafood,Low Performer,Low Performer,0.0,0.0
+M078,Fish & Chips Craft,Coastal Seafood,Low Performer,Low Performer,0.0,0.0
+M103,Roasted Pepper Stew,Heritage Soups,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M121,Vanilla Bean Creme Brulee,Decadent Desserts,Profit Driver,Profit Driver,3.0,3.0
+M126,Nutella Churros Board,Decadent Desserts,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M142,Rosemary Grapefruit Elixir,Craft Beverages,Low Performer,Low Performer,0.0,0.0
+M149,Belgian Waffle Berry Supreme,Brunch & Breakfast,Volume Driver,Volume Driver,2.0,2.0
+M155,Croque Madame,Brunch & Breakfast,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M156,Churro French Toast,Brunch & Breakfast,Volume Driver,Volume Driver,2.0,2.0
+M025,Marinara,Artisan Pizzas,Low Performer,Low Performer,0.0,0.0
+M027,Tagliatelle Bolognese,Handcrafted Pastas,Volume Driver,Volume Driver,2.0,2.0
+M029,Fettuccine Alfredo,Handcrafted Pastas,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M043,Spicy Chicken Burger,Gourmet Burgers,Low Performer,Low Performer,0.0,0.0
+M055,New York Strip 10oz,Prime Steaks & Grills,Volume Driver,Volume Driver,2.0,2.0
+M058,Rack of Lamb,Prime Steaks & Grills,Low Performer,Low Performer,0.0,0.0
+M059,Grilled Spatchcock Chicken,Prime Steaks & Grills,Low Performer,Low Performer,0.0,0.0
+M061,T-Bone Steak,Prime Steaks & Grills,Profit Driver,Profit Driver,3.0,3.0
+M074,Seafood Paella,Coastal Seafood,Volume Driver,Volume Driver,2.0,2.0
+M089,Arugula Citrus Bowl,Organic Salads,Low Performer,Low Performer,0.0,0.0
+M094,Lobster Bisque,Heritage Soups,Profit Driver,Profit Driver,3.0,3.0
+M097,Minestrone Genovese,Heritage Soups,Low Performer,Low Performer,0.0,0.0
+M101,Beef Goulash Soup,Heritage Soups,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M105,Beyond Truffle Burger,Plant-Based & Vegan,Low Performer,Low Performer,0.0,0.0
+M120,Basque Burnt Cheesecake,Decadent Desserts,Low Performer,Low Performer,0.0,0.0
+M125,Panna Cotta Berry,Decadent Desserts,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M132,Cold Pressed Green Detox,Craft Beverages,Low Performer,Low Performer,0.0,0.0
+M146,Brioche French Toast,Brunch & Breakfast,Low Performer,Low Performer,0.0,0.0
+M010,Smoked Pistachio Gelato Brioche,Appetizers,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M013,Garlic Bread,Appetizers,Low Performer,Low Performer,0.0,0.0
+M020,Pepperoni Bianca,Artisan Pizzas,Low Performer,Low Performer,0.0,0.0
+M021,Pesto Genovese,Artisan Pizzas,Profit Driver,Profit Driver,3.0,3.0
+M028,Truffle Pasta,Handcrafted Pastas,Volume Driver,Volume Driver,2.0,2.0
+M030,Seafood Linguine,Handcrafted Pastas,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M045,Bison Deluxe,Gourmet Burgers,Volume Driver,Volume Driver,2.0,2.0
+M065,Veal Chop,Prime Steaks & Grills,Low Performer,Low Performer,0.0,0.0
+M075,Cioppino Stew,Coastal Seafood,Low Performer,Low Performer,0.0,0.0
+M080,Classic Caesar Supreme,Organic Salads,Profit Driver,Profit Driver,3.0,3.0
+M083,Roasted Beet & Goat Cheese,Organic Salads,Low Performer,Low Performer,0.0,0.0
+M088,Asian Sesame Salmon Bowl,Organic Salads,Low Performer,Low Performer,0.0,0.0
+M093,Cream of Wild Mushroom,Heritage Soups,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M102,Miso Salmon Soup,Heritage Soups,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M111,Lentil Shepherd's Pie,Plant-Based & Vegan,Low Performer,Low Performer,0.0,0.0
+M112,Chickpea Tikka Bowl,Plant-Based & Vegan,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M122,Pistachio Gelato Sundae,Decadent Desserts,Profit Driver,Profit Driver,3.0,3.0
+M123,Apple Tarte Tatin,Decadent Desserts,Low Performer,Low Performer,0.0,0.0
+M131,Sparkling Berry Mocktail,Craft Beverages,Profit Driver,Profit Driver,3.0,3.0
+M143,Kombucha Tap,Craft Beverages,Low Performer,Low Performer,0.0,0.0
+M001,Wagyu Prime Smashed Burger,Appetizers,Low Performer,Low Performer,0.0,0.0
+M003,Fresh Maine Lobster Thermidor,Appetizers,Low Performer,Volume Driver,2.0,0.0
+M034,Pappardelle Ragu,Handcrafted Pastas,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M039,Lasagna Bianca,Handcrafted Pastas,Volume Driver,Volume Driver,2.0,2.0
+M040,Angus Classic Burger,Gourmet Burgers,Volume Driver,Volume Driver,2.0,2.0
+M049,Sliders Board,Gourmet Burgers,Volume Driver,Volume Driver,2.0,2.0
+M064,BBQ Beef Brisket,Prime Steaks & Grills,Volume Driver,Volume Driver,2.0,2.0
+M067,Pan-Seared Sea Bass,Coastal Seafood,Low Performer,Low Performer,0.0,0.0
+M071,Grilled Octopus,Coastal Seafood,Volume Driver,Volume Driver,2.0,2.0
+M084,Thai Beef Crunch Salad,Organic Salads,Low Performer,Low Performer,0.0,0.0
+M095,Tuscan White Bean Soup,Heritage Soups,Volume Driver,Volume Driver,2.0,2.0
+M099,Seafood Chowder,Heritage Soups,Profit Driver,Profit Driver,3.0,3.0
+M100,Tomato Basil Bisque,Heritage Soups,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M106,Wild Mushroom Risotto,Plant-Based & Vegan,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M107,Crispy Cauliflower Wings,Plant-Based & Vegan,Low Performer,Low Performer,0.0,0.0
+M113,Avocado Green Goddess Bowl,Plant-Based & Vegan,Profit Driver,Profit Driver,3.0,3.0
+M117,Falafel Mezze Plate,Plant-Based & Vegan,Volume Driver,Volume Driver,2.0,2.0
+M118,Valrhona Molten Lava Cake,Decadent Desserts,Profit Driver,Profit Driver,3.0,3.0
+M124,Salted Caramel Tart,Decadent Desserts,Profit Driver,Profit Driver,3.0,3.0
+M133,Smoked Hibiscus Soda,Craft Beverages,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M134,Passionfruit Fizz,Craft Beverages,Profit Driver,Profit Driver,3.0,3.0
+M138,Yuzu Mint Lemonade,Craft Beverages,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M140,Dragonfruit Infusion,Craft Beverages,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M141,Earl Grey London Fog,Craft Beverages,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M145,Avocado Sourdough Tartine,Brunch & Breakfast,Low Performer,Low Performer,0.0,0.0
+M147,Smoked Salmon Croissant,Brunch & Breakfast,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M150,Breakfast Burrito Deluxe,Brunch & Breakfast,Volume Driver,Volume Driver,2.0,2.0
+M008,Prosecco Brunch Tower,Appetizers,Low Performer,Low Performer,0.0,0.0
+M035,Spaghetti Carbonara,Handcrafted Pastas,Volume Driver,Volume Driver,2.0,2.0
+M038,Rigatoni Pesto,Handcrafted Pastas,Volume Driver,Volume Driver,2.0,2.0
+M041,Truffle Wagyu Burger,Gourmet Burgers,Low Performer,Low Performer,0.0,0.0
+M048,Double Smashed Burger,Gourmet Burgers,Profit Driver,Profit Driver,3.0,3.0
+M053,Ribeye Steak 12oz,Prime Steaks & Grills,Volume Driver,Volume Driver,2.0,2.0
+M073,Halibut Risotto,Coastal Seafood,Low Performer,Low Performer,0.0,0.0
+M082,Kale & Roasted Squash,Organic Salads,Volume Driver,Volume Driver,2.0,2.0
+M090,Avocado Corn Bowl,Organic Salads,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M091,Warm Lentil Salad,Organic Salads,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M092,French Onion Soup,Heritage Soups,Profit Driver,Profit Driver,3.0,3.0
+M098,Chicken Tortilla Broth,Heritage Soups,Low Performer,Low Performer,0.0,0.0
+M110,Jackfruit Carnitas Tacos,Plant-Based & Vegan,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M115,Eggplant Parmigiana Vegan,Plant-Based & Vegan,Volume Driver,Volume Driver,2.0,2.0
+M116,Pumpkin Ravioli Vegan,Plant-Based & Vegan,Profit Driver,Profit Driver,3.0,3.0
+M119,Classic Tiramisu Classico,Decadent Desserts,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M128,Profiteroles Dark Chocolate,Decadent Desserts,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M139,Blood Orange Spritz,Craft Beverages,Profit Driver,Profit Driver,3.0,3.0
+M153,Açaí Superfruit Bowl,Brunch & Breakfast,Low Performer,Volume Driver,2.0,0.0
+M154,Steak & Eggs Skillet,Brunch & Breakfast,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M005,Midnight Crispy Onion Rings,Appetizers,Volume Driver,Volume Driver,2.0,2.0
+M011,Hummus Trio,Appetizers,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M012,Empanadas,Appetizers,Profit Driver,Profit Driver,3.0,3.0
+M015,Diavola,Artisan Pizzas,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M026,Fig Gorgonzola,Artisan Pizzas,Volume Driver,Volume Driver,2.0,2.0
+M036,Lobster Tortelloni,Handcrafted Pastas,Volume Driver,Volume Driver,2.0,2.0
+M052,Blue Cheese Burger,Gourmet Burgers,Low Performer,Low Performer,0.0,0.0
+M057,Braised Beef Short Ribs,Prime Steaks & Grills,Volume Driver,Volume Driver,2.0,2.0
+M060,Pork Belly Glazed,Prime Steaks & Grills,Volume Driver,Volume Driver,2.0,2.0
+M062,Chateaubriand,Prime Steaks & Grills,Volume Driver,Volume Driver,2.0,2.0
+M072,Mahi Mahi Tacos,Coastal Seafood,Volume Driver,Volume Driver,2.0,2.0
+M077,Black Cod Miso,Coastal Seafood,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M079,Mediterranean Quinoa Salad,Organic Salads,Profit Driver,Profit Driver,3.0,3.0
+M096,Butternut Squash Soup,Heritage Soups,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M104,Lentil Soup,Heritage Soups,Volume Driver,Volume Driver,2.0,2.0
+M114,Smoked Tofu Bao,Plant-Based & Vegan,Low Performer,Low Performer,0.0,0.0
+M129,Affogato Supreme,Decadent Desserts,Profit Driver,Profit Driver,3.0,3.0
+M135,Artisan Cold Brew Latte,Craft Beverages,Profit Driver,Profit Driver,3.0,3.0
+M137,Craft Ginger Beer,Craft Beverages,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M148,Shakshuka Mediterranean,Brunch & Breakfast,Low Performer,Low Performer,0.0,0.0
+M151,Truffle Scrambled Brioche,Brunch & Breakfast,Volume Driver,Volume Driver,2.0,2.0
+M019,Calzone,Artisan Pizzas,Volume Driver,Volume Driver,2.0,2.0
+M022,Smoked Salmon Pizza,Artisan Pizzas,Low Performer,Low Performer,0.0,0.0
+M037,Lasagna Classica,Handcrafted Pastas,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M046,BBQ Pulled Pork Burger,Gourmet Burgers,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M047,Crispy Fish Fillet Burger,Gourmet Burgers,Volume Driver,Volume Driver,2.0,2.0
+M051,Avocado Burger,Gourmet Burgers,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M069,Tiger Prawn Skewers,Coastal Seafood,Volume Driver,Volume Driver,2.0,2.0
+M087,Caprese Salad,Organic Salads,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M108,Tofu Teriyaki Bowl,Plant-Based & Vegan,Low Performer,Low Performer,0.0,0.0
+M130,Chocolate Mousse Dome,Decadent Desserts,Hidden Opportunity,Hidden Opportunity,1.0,1.0
+M136,Matcha Lavender Tonic,Craft Beverages,Low Performer,Low Performer,0.0,0.0
+M152,Pancake Stack Maple,Brunch & Breakfast,Hidden Opportunity,Hidden Opportunity,1.0,1.0

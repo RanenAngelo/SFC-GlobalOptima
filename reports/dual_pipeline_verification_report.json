@@ -1,0 +1,1607 @@
+{
+  "step": "Step 14: Dual-Pipeline Result Verification",
+  "timestamp": "2026-09-25 09:13:00",
+  "total_records_evaluated": 156,
+  "match_count": 153,
+  "mismatch_count": 3,
+  "overall_agreement_pct": 98.08,
+  "spark_pipeline": {
+    "framework": "Apache Spark MLlib (Random Forest)",
+    "accuracy_pct": 98.08
+  },
+  "python_pipeline": {
+    "framework": "Python Scikit-Learn / XGBoost",
+    "accuracy_pct": 100.0
+  },
+  "disagreements": [
+    {
+      "item_id": "M009",
+      "item_name": "Winter Roasted Chestnut Bisque",
+      "category_name": "Appetizers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Low Performer",
+      "explanation": "Model decision boundary variance on near-threshold features. Spark MLlib Random Forest classified as 'Hidden Opportunity', whereas Python XGBoost classified as 'Low Performer' (Actual: 'Low Performer'). Spark utilizes bagging over tree ensembles with sub-sampled feature spaces, while XGBoost utilizes sequential gradient boosting on pseudo-residuals."
+    },
+    {
+      "item_id": "M003",
+      "item_name": "Fresh Maine Lobster Thermidor",
+      "category_name": "Appetizers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Low Performer",
+      "explanation": "Model decision boundary variance on near-threshold features. Spark MLlib Random Forest classified as 'Volume Driver', whereas Python XGBoost classified as 'Low Performer' (Actual: 'Low Performer'). Spark utilizes bagging over tree ensembles with sub-sampled feature spaces, while XGBoost utilizes sequential gradient boosting on pseudo-residuals."
+    },
+    {
+      "item_id": "M153",
+      "item_name": "A\u00e7a\u00ed Superfruit Bowl",
+      "category_name": "Brunch & Breakfast",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Low Performer",
+      "explanation": "Model decision boundary variance on near-threshold features. Spark MLlib Random Forest classified as 'Volume Driver', whereas Python XGBoost classified as 'Low Performer' (Actual: 'Low Performer'). Spark utilizes bagging over tree ensembles with sub-sampled feature spaces, while XGBoost utilizes sequential gradient boosting on pseudo-residuals."
+    }
+  ],
+  "comparison_table": [
+    {
+      "record_id": "M004",
+      "item_name": "Handmade Saffron Tagliolini",
+      "category": "Appetizers",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M009",
+      "item_name": "Winter Roasted Chestnut Bisque",
+      "category": "Appetizers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Low Performer",
+      "match_status": "MISMATCH",
+      "consistency_status": "BOUNDARY_DISCREPANCY"
+    },
+    {
+      "record_id": "M016",
+      "item_name": "Quattro Formaggi",
+      "category": "Artisan Pizzas",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M033",
+      "item_name": "Gnocchi Gorgonzola",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M044",
+      "item_name": "Mushroom Swiss Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M054",
+      "item_name": "Filet Mignon 8oz",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M056",
+      "item_name": "Tomahawk Cut 32oz",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M063",
+      "item_name": "Wagyu Striploin",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M068",
+      "item_name": "Lobster Tail Thermidor",
+      "category": "Coastal Seafood",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M076",
+      "item_name": "Tuna Tataki Bowl",
+      "category": "Coastal Seafood",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M081",
+      "item_name": "Burrata Heirloom Tomato",
+      "category": "Organic Salads",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M085",
+      "item_name": "Greek Village Salad",
+      "category": "Organic Salads",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M086",
+      "item_name": "Superfood Cobb Salad",
+      "category": "Organic Salads",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M109",
+      "item_name": "Zucchini Noodles Pesto",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M127",
+      "item_name": "Key Lime Pie",
+      "category": "Decadent Desserts",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M144",
+      "item_name": "Classic Eggs Benedict",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M002",
+      "item_name": "Imperial Beluga Caviar Tartlet",
+      "category": "Appetizers",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M006",
+      "item_name": "Double Loaded Truffle Fries",
+      "category": "Appetizers",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M007",
+      "item_name": "Spicy Cajun Crawfish Boil",
+      "category": "Appetizers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M014",
+      "item_name": "Margherita",
+      "category": "Artisan Pizzas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M017",
+      "item_name": "Prosciutto Funghi",
+      "category": "Artisan Pizzas",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M018",
+      "item_name": "Burrata Truffle",
+      "category": "Artisan Pizzas",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M023",
+      "item_name": "Wild Mushroom Flatbread",
+      "category": "Artisan Pizzas",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M024",
+      "item_name": "Capricciosa",
+      "category": "Artisan Pizzas",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M031",
+      "item_name": "Penne Arrabbiata",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M032",
+      "item_name": "Ravioli Ricotta",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M042",
+      "item_name": "Smoked Bacon Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M050",
+      "item_name": "Jalapeno Cheddar Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M066",
+      "item_name": "Grilled Atlantic Salmon",
+      "category": "Coastal Seafood",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M070",
+      "item_name": "Crab Cakes Chesapeake",
+      "category": "Coastal Seafood",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M078",
+      "item_name": "Fish & Chips Craft",
+      "category": "Coastal Seafood",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M103",
+      "item_name": "Roasted Pepper Stew",
+      "category": "Heritage Soups",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M121",
+      "item_name": "Vanilla Bean Creme Brulee",
+      "category": "Decadent Desserts",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M126",
+      "item_name": "Nutella Churros Board",
+      "category": "Decadent Desserts",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M142",
+      "item_name": "Rosemary Grapefruit Elixir",
+      "category": "Craft Beverages",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M149",
+      "item_name": "Belgian Waffle Berry Supreme",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M155",
+      "item_name": "Croque Madame",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M156",
+      "item_name": "Churro French Toast",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M025",
+      "item_name": "Marinara",
+      "category": "Artisan Pizzas",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M027",
+      "item_name": "Tagliatelle Bolognese",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M029",
+      "item_name": "Fettuccine Alfredo",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M043",
+      "item_name": "Spicy Chicken Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M055",
+      "item_name": "New York Strip 10oz",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M058",
+      "item_name": "Rack of Lamb",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M059",
+      "item_name": "Grilled Spatchcock Chicken",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M061",
+      "item_name": "T-Bone Steak",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M074",
+      "item_name": "Seafood Paella",
+      "category": "Coastal Seafood",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M089",
+      "item_name": "Arugula Citrus Bowl",
+      "category": "Organic Salads",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M094",
+      "item_name": "Lobster Bisque",
+      "category": "Heritage Soups",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M097",
+      "item_name": "Minestrone Genovese",
+      "category": "Heritage Soups",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M101",
+      "item_name": "Beef Goulash Soup",
+      "category": "Heritage Soups",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M105",
+      "item_name": "Beyond Truffle Burger",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M120",
+      "item_name": "Basque Burnt Cheesecake",
+      "category": "Decadent Desserts",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M125",
+      "item_name": "Panna Cotta Berry",
+      "category": "Decadent Desserts",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M132",
+      "item_name": "Cold Pressed Green Detox",
+      "category": "Craft Beverages",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M146",
+      "item_name": "Brioche French Toast",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M010",
+      "item_name": "Smoked Pistachio Gelato Brioche",
+      "category": "Appetizers",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M013",
+      "item_name": "Garlic Bread",
+      "category": "Appetizers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M020",
+      "item_name": "Pepperoni Bianca",
+      "category": "Artisan Pizzas",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M021",
+      "item_name": "Pesto Genovese",
+      "category": "Artisan Pizzas",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M028",
+      "item_name": "Truffle Pasta",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M030",
+      "item_name": "Seafood Linguine",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M045",
+      "item_name": "Bison Deluxe",
+      "category": "Gourmet Burgers",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M065",
+      "item_name": "Veal Chop",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M075",
+      "item_name": "Cioppino Stew",
+      "category": "Coastal Seafood",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M080",
+      "item_name": "Classic Caesar Supreme",
+      "category": "Organic Salads",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M083",
+      "item_name": "Roasted Beet & Goat Cheese",
+      "category": "Organic Salads",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M088",
+      "item_name": "Asian Sesame Salmon Bowl",
+      "category": "Organic Salads",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M093",
+      "item_name": "Cream of Wild Mushroom",
+      "category": "Heritage Soups",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M102",
+      "item_name": "Miso Salmon Soup",
+      "category": "Heritage Soups",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M111",
+      "item_name": "Lentil Shepherd's Pie",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M112",
+      "item_name": "Chickpea Tikka Bowl",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M122",
+      "item_name": "Pistachio Gelato Sundae",
+      "category": "Decadent Desserts",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M123",
+      "item_name": "Apple Tarte Tatin",
+      "category": "Decadent Desserts",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M131",
+      "item_name": "Sparkling Berry Mocktail",
+      "category": "Craft Beverages",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M143",
+      "item_name": "Kombucha Tap",
+      "category": "Craft Beverages",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M001",
+      "item_name": "Wagyu Prime Smashed Burger",
+      "category": "Appetizers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M003",
+      "item_name": "Fresh Maine Lobster Thermidor",
+      "category": "Appetizers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Low Performer",
+      "match_status": "MISMATCH",
+      "consistency_status": "BOUNDARY_DISCREPANCY"
+    },
+    {
+      "record_id": "M034",
+      "item_name": "Pappardelle Ragu",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M039",
+      "item_name": "Lasagna Bianca",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M040",
+      "item_name": "Angus Classic Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M049",
+      "item_name": "Sliders Board",
+      "category": "Gourmet Burgers",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M064",
+      "item_name": "BBQ Beef Brisket",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M067",
+      "item_name": "Pan-Seared Sea Bass",
+      "category": "Coastal Seafood",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M071",
+      "item_name": "Grilled Octopus",
+      "category": "Coastal Seafood",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M084",
+      "item_name": "Thai Beef Crunch Salad",
+      "category": "Organic Salads",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M095",
+      "item_name": "Tuscan White Bean Soup",
+      "category": "Heritage Soups",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M099",
+      "item_name": "Seafood Chowder",
+      "category": "Heritage Soups",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M100",
+      "item_name": "Tomato Basil Bisque",
+      "category": "Heritage Soups",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M106",
+      "item_name": "Wild Mushroom Risotto",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M107",
+      "item_name": "Crispy Cauliflower Wings",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M113",
+      "item_name": "Avocado Green Goddess Bowl",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M117",
+      "item_name": "Falafel Mezze Plate",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M118",
+      "item_name": "Valrhona Molten Lava Cake",
+      "category": "Decadent Desserts",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M124",
+      "item_name": "Salted Caramel Tart",
+      "category": "Decadent Desserts",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M133",
+      "item_name": "Smoked Hibiscus Soda",
+      "category": "Craft Beverages",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M134",
+      "item_name": "Passionfruit Fizz",
+      "category": "Craft Beverages",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M138",
+      "item_name": "Yuzu Mint Lemonade",
+      "category": "Craft Beverages",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M140",
+      "item_name": "Dragonfruit Infusion",
+      "category": "Craft Beverages",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M141",
+      "item_name": "Earl Grey London Fog",
+      "category": "Craft Beverages",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M145",
+      "item_name": "Avocado Sourdough Tartine",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M147",
+      "item_name": "Smoked Salmon Croissant",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M150",
+      "item_name": "Breakfast Burrito Deluxe",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M008",
+      "item_name": "Prosecco Brunch Tower",
+      "category": "Appetizers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M035",
+      "item_name": "Spaghetti Carbonara",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M038",
+      "item_name": "Rigatoni Pesto",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M041",
+      "item_name": "Truffle Wagyu Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M048",
+      "item_name": "Double Smashed Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M053",
+      "item_name": "Ribeye Steak 12oz",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M073",
+      "item_name": "Halibut Risotto",
+      "category": "Coastal Seafood",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M082",
+      "item_name": "Kale & Roasted Squash",
+      "category": "Organic Salads",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M090",
+      "item_name": "Avocado Corn Bowl",
+      "category": "Organic Salads",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M091",
+      "item_name": "Warm Lentil Salad",
+      "category": "Organic Salads",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M092",
+      "item_name": "French Onion Soup",
+      "category": "Heritage Soups",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M098",
+      "item_name": "Chicken Tortilla Broth",
+      "category": "Heritage Soups",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M110",
+      "item_name": "Jackfruit Carnitas Tacos",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M115",
+      "item_name": "Eggplant Parmigiana Vegan",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M116",
+      "item_name": "Pumpkin Ravioli Vegan",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M119",
+      "item_name": "Classic Tiramisu Classico",
+      "category": "Decadent Desserts",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M128",
+      "item_name": "Profiteroles Dark Chocolate",
+      "category": "Decadent Desserts",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M139",
+      "item_name": "Blood Orange Spritz",
+      "category": "Craft Beverages",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M153",
+      "item_name": "A\u00e7a\u00ed Superfruit Bowl",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Low Performer",
+      "match_status": "MISMATCH",
+      "consistency_status": "BOUNDARY_DISCREPANCY"
+    },
+    {
+      "record_id": "M154",
+      "item_name": "Steak & Eggs Skillet",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M005",
+      "item_name": "Midnight Crispy Onion Rings",
+      "category": "Appetizers",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M011",
+      "item_name": "Hummus Trio",
+      "category": "Appetizers",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M012",
+      "item_name": "Empanadas",
+      "category": "Appetizers",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M015",
+      "item_name": "Diavola",
+      "category": "Artisan Pizzas",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M026",
+      "item_name": "Fig Gorgonzola",
+      "category": "Artisan Pizzas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M036",
+      "item_name": "Lobster Tortelloni",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M052",
+      "item_name": "Blue Cheese Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M057",
+      "item_name": "Braised Beef Short Ribs",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M060",
+      "item_name": "Pork Belly Glazed",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M062",
+      "item_name": "Chateaubriand",
+      "category": "Prime Steaks & Grills",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M072",
+      "item_name": "Mahi Mahi Tacos",
+      "category": "Coastal Seafood",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M077",
+      "item_name": "Black Cod Miso",
+      "category": "Coastal Seafood",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M079",
+      "item_name": "Mediterranean Quinoa Salad",
+      "category": "Organic Salads",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M096",
+      "item_name": "Butternut Squash Soup",
+      "category": "Heritage Soups",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M104",
+      "item_name": "Lentil Soup",
+      "category": "Heritage Soups",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M114",
+      "item_name": "Smoked Tofu Bao",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M129",
+      "item_name": "Affogato Supreme",
+      "category": "Decadent Desserts",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M135",
+      "item_name": "Artisan Cold Brew Latte",
+      "category": "Craft Beverages",
+      "actual_class": "Profit Driver",
+      "spark_prediction": "Profit Driver",
+      "python_prediction": "Profit Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M137",
+      "item_name": "Craft Ginger Beer",
+      "category": "Craft Beverages",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M148",
+      "item_name": "Shakshuka Mediterranean",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M151",
+      "item_name": "Truffle Scrambled Brioche",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M019",
+      "item_name": "Calzone",
+      "category": "Artisan Pizzas",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M022",
+      "item_name": "Smoked Salmon Pizza",
+      "category": "Artisan Pizzas",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M037",
+      "item_name": "Lasagna Classica",
+      "category": "Handcrafted Pastas",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M046",
+      "item_name": "BBQ Pulled Pork Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M047",
+      "item_name": "Crispy Fish Fillet Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M051",
+      "item_name": "Avocado Burger",
+      "category": "Gourmet Burgers",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M069",
+      "item_name": "Tiger Prawn Skewers",
+      "category": "Coastal Seafood",
+      "actual_class": "Volume Driver",
+      "spark_prediction": "Volume Driver",
+      "python_prediction": "Volume Driver",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M087",
+      "item_name": "Caprese Salad",
+      "category": "Organic Salads",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M108",
+      "item_name": "Tofu Teriyaki Bowl",
+      "category": "Plant-Based & Vegan",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M130",
+      "item_name": "Chocolate Mousse Dome",
+      "category": "Decadent Desserts",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M136",
+      "item_name": "Matcha Lavender Tonic",
+      "category": "Craft Beverages",
+      "actual_class": "Low Performer",
+      "spark_prediction": "Low Performer",
+      "python_prediction": "Low Performer",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    },
+    {
+      "record_id": "M152",
+      "item_name": "Pancake Stack Maple",
+      "category": "Brunch & Breakfast",
+      "actual_class": "Hidden Opportunity",
+      "spark_prediction": "Hidden Opportunity",
+      "python_prediction": "Hidden Opportunity",
+      "match_status": "MATCH",
+      "consistency_status": "FULL_AGREEMENT"
+    }
+  ]
+}

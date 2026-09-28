@@ -1,0 +1,346 @@
+{
+  "step": "Steps 19, 20, 21 & 22: Peak Periods & Demand Forecasting",
+  "timestamp": "2026-09-25 09:16:50",
+  "peak_analysis": {
+    "peak_dining_hours": [
+      12,
+      13,
+      18,
+      19
+    ],
+    "weekend_revenue_share_pct": 42.9,
+    "hourly_distribution": [
+      {
+        "order_hour": 11,
+        "orders_count": 17362,
+        "total_items": 25482,
+        "revenue": 520576.11
+      },
+      {
+        "order_hour": 12,
+        "orders_count": 197547,
+        "total_items": 292274,
+        "revenue": 6064561.32
+      },
+      {
+        "order_hour": 13,
+        "orders_count": 195574,
+        "total_items": 289004,
+        "revenue": 5984626.96
+      },
+      {
+        "order_hour": 14,
+        "orders_count": 17096,
+        "total_items": 25298,
+        "revenue": 522847.93
+      },
+      {
+        "order_hour": 15,
+        "orders_count": 16272,
+        "total_items": 24011,
+        "revenue": 492640.6
+      },
+      {
+        "order_hour": 16,
+        "orders_count": 17243,
+        "total_items": 25619,
+        "revenue": 527034.55
+      },
+      {
+        "order_hour": 17,
+        "orders_count": 16781,
+        "total_items": 24904,
+        "revenue": 513596.68
+      },
+      {
+        "order_hour": 18,
+        "orders_count": 133918,
+        "total_items": 198035,
+        "revenue": 4091927.66
+      },
+      {
+        "order_hour": 19,
+        "orders_count": 132368,
+        "total_items": 196086,
+        "revenue": 4055362.79
+      },
+      {
+        "order_hour": 20,
+        "orders_count": 132203,
+        "total_items": 195692,
+        "revenue": 4048209.68
+      },
+      {
+        "order_hour": 21,
+        "orders_count": 131589,
+        "total_items": 194391,
+        "revenue": 4032064.15
+      },
+      {
+        "order_hour": 22,
+        "orders_count": 16650,
+        "total_items": 24552,
+        "revenue": 512176.79
+      }
+    ],
+    "dow_distribution": [
+      {
+        "order_dow": "Monday",
+        "total_items": 217182,
+        "revenue": 4475722.3
+      },
+      {
+        "order_dow": "Tuesday",
+        "total_items": 214492,
+        "revenue": 4428411.77
+      },
+      {
+        "order_dow": "Wednesday",
+        "total_items": 217699,
+        "revenue": 4506237.53
+      },
+      {
+        "order_dow": "Thursday",
+        "total_items": 217178,
+        "revenue": 4491178.84
+      },
+      {
+        "order_dow": "Friday",
+        "total_items": 215971,
+        "revenue": 4483385.09
+      },
+      {
+        "order_dow": "Saturday",
+        "total_items": 215497,
+        "revenue": 4467222.95
+      },
+      {
+        "order_dow": "Sunday",
+        "total_items": 217329,
+        "revenue": 4513466.74
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "order_month": "2025-01",
+        "total_items": 126588,
+        "revenue": 2619581.78
+      },
+      {
+        "order_month": "2025-02",
+        "total_items": 116493,
+        "revenue": 2416771.79
+      },
+      {
+        "order_month": "2025-03",
+        "total_items": 128843,
+        "revenue": 2674052.55
+      },
+      {
+        "order_month": "2025-04",
+        "total_items": 124352,
+        "revenue": 2579774.84
+      },
+      {
+        "order_month": "2025-05",
+        "total_items": 131160,
+        "revenue": 2703126.28
+      },
+      {
+        "order_month": "2025-06",
+        "total_items": 123727,
+        "revenue": 2546418.09
+      },
+      {
+        "order_month": "2025-07",
+        "total_items": 126642,
+        "revenue": 2621974.86
+      },
+      {
+        "order_month": "2025-08",
+        "total_items": 128605,
+        "revenue": 2666487.2
+      },
+      {
+        "order_month": "2025-09",
+        "total_items": 124993,
+        "revenue": 2587812.23
+      },
+      {
+        "order_month": "2025-10",
+        "total_items": 129205,
+        "revenue": 2679081.93
+      },
+      {
+        "order_month": "2025-11",
+        "total_items": 123420,
+        "revenue": 2546537.69
+      },
+      {
+        "order_month": "2025-12",
+        "total_items": 129656,
+        "revenue": 2689010.45
+      },
+      {
+        "order_month": "2026-01",
+        "total_items": 1664,
+        "revenue": 34995.53
+      }
+    ]
+  },
+  "forecasting_setup": {
+    "validation_method": "Strict Chronological Split (Zero Leakage)",
+    "train_days": 290,
+    "test_days": 62,
+    "features_used": [
+      "day_of_week",
+      "day_of_month",
+      "month",
+      "is_weekend",
+      "lag_1",
+      "lag_7",
+      "lag_14",
+      "rolling_mean_7",
+      "rolling_mean_14"
+    ]
+  },
+  "evaluation_metrics": {
+    "baseline_model": {
+      "name": "7-Day Seasonal Lag Persistence",
+      "mae": 402.4,
+      "rmse": 541.46,
+      "mape_pct": 11.11,
+      "r2_score": -0.526
+    },
+    "dineiq_model": {
+      "name": "Gradient Boosting Demand Regressor",
+      "mae": 290.19,
+      "rmse": 459.88,
+      "mape_pct": 8.62,
+      "r2_score": -0.101
+    },
+    "improvement": {
+      "mae_reduction_pct": 27.9,
+      "rmse_reduction_pct": 15.1
+    }
+  },
+  "sample_forecast_comparison": [
+    {
+      "order_date_str": "2025-11-01",
+      "total_quantity": 4109,
+      "predicted_quantity": 4263.2,
+      "baseline_quantity": 3900.0,
+      "absolute_error": 154.19999999999982
+    },
+    {
+      "order_date_str": "2025-11-02",
+      "total_quantity": 4475,
+      "predicted_quantity": 4265.0,
+      "baseline_quantity": 4163.0,
+      "absolute_error": 210.0
+    },
+    {
+      "order_date_str": "2025-11-03",
+      "total_quantity": 4248,
+      "predicted_quantity": 3998.0,
+      "baseline_quantity": 4075.0,
+      "absolute_error": 250.0
+    },
+    {
+      "order_date_str": "2025-11-04",
+      "total_quantity": 3922,
+      "predicted_quantity": 4114.3,
+      "baseline_quantity": 3980.0,
+      "absolute_error": 192.30000000000018
+    },
+    {
+      "order_date_str": "2025-11-05",
+      "total_quantity": 4083,
+      "predicted_quantity": 4269.8,
+      "baseline_quantity": 4801.0,
+      "absolute_error": 186.80000000000018
+    },
+    {
+      "order_date_str": "2025-11-06",
+      "total_quantity": 4183,
+      "predicted_quantity": 4118.2,
+      "baseline_quantity": 4197.0,
+      "absolute_error": 64.80000000000018
+    },
+    {
+      "order_date_str": "2025-11-07",
+      "total_quantity": 3734,
+      "predicted_quantity": 4198.6,
+      "baseline_quantity": 4190.0,
+      "absolute_error": 464.60000000000036
+    },
+    {
+      "order_date_str": "2025-11-08",
+      "total_quantity": 3882,
+      "predicted_quantity": 4155.8,
+      "baseline_quantity": 4109.0,
+      "absolute_error": 273.8000000000002
+    },
+    {
+      "order_date_str": "2025-11-09",
+      "total_quantity": 3754,
+      "predicted_quantity": 4211.3,
+      "baseline_quantity": 4475.0,
+      "absolute_error": 457.3000000000002
+    },
+    {
+      "order_date_str": "2025-11-10",
+      "total_quantity": 4050,
+      "predicted_quantity": 4109.3,
+      "baseline_quantity": 4248.0,
+      "absolute_error": 59.30000000000018
+    },
+    {
+      "order_date_str": "2025-11-11",
+      "total_quantity": 4294,
+      "predicted_quantity": 4493.3,
+      "baseline_quantity": 3922.0,
+      "absolute_error": 199.30000000000018
+    },
+    {
+      "order_date_str": "2025-11-12",
+      "total_quantity": 5024,
+      "predicted_quantity": 4164.6,
+      "baseline_quantity": 4083.0,
+      "absolute_error": 859.3999999999996
+    },
+    {
+      "order_date_str": "2025-11-13",
+      "total_quantity": 4189,
+      "predicted_quantity": 4081.5,
+      "baseline_quantity": 4183.0,
+      "absolute_error": 107.5
+    },
+    {
+      "order_date_str": "2025-11-14",
+      "total_quantity": 4371,
+      "predicted_quantity": 4262.9,
+      "baseline_quantity": 3734.0,
+      "absolute_error": 108.10000000000036
+    },
+    {
+      "order_date_str": "2025-11-15",
+      "total_quantity": 3958,
+      "predicted_quantity": 4107.4,
+      "baseline_quantity": 3882.0,
+      "absolute_error": 149.39999999999964
+    }
+  ],
+  "category_demand_totals": {
+    "Appetizers": 183380,
+    "Organic Salads": 123850,
+    "Heritage Soups": 123737,
+    "Prime Steaks & Grills": 123608,
+    "Craft Beverages": 123399,
+    "Decadent Desserts": 123182,
+    "Handcrafted Pastas": 123126,
+    "Coastal Seafood": 122886,
+    "Artisan Pizzas": 122314,
+    "Gourmet Burgers": 115428
+  }
+}
