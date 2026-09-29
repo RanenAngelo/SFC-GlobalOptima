@@ -1,0 +1,26 @@
+# Python Big Data & Raw Datasets (not needed for Vite frontend on Vercel)
+raw_data/
+processed_data/
+parquet_data/
+sample_data/
+database/
+models/
+spark_jobs/
+spark_sql/
+python_pipeline/
+notebooks/
+documentation/
+screenshots/
+reports/
+scripts/
+
+# Python Virtual Environments & Caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# Tests
+tests/
+verify_rbac_isolation.py
